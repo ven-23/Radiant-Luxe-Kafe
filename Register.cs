@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,14 +8,79 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TheArtOfDevHtmlRenderer.Adapters;
 
 namespace Radiant_Luxe_Kafe
 {
     public partial class Register : Form
     {
+        private const string CONNECTION_STRING = "server=localhost;user id = root; password=; database=dbRLK;";
         public Register()
         {
             InitializeComponent();
+        }
+
+        private void cbShowPass_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbShowPass.Checked)
+            {
+                txtPassword.UseSystemPasswordChar = false;
+                txtConPass.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtPassword.UseSystemPasswordChar = true;
+                txtConPass.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtFullname.Text) || string.IsNullOrEmpty(txtAddress.Text) || string.IsNullOrEmpty(txtPhoneNumber.Text) ||
+    string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text) ||
+    string.IsNullOrEmpty(txtConPass.Text) || (!rbtnMale.Checked && !rbtnFemale.Checked))
+            {
+                MessageBox.Show("Please provide complete information, including selecting a gender.", "Incomplete Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Check if Password and ConfirmPassword match
+            if (txtPassword.Text != txtConPass.Text)
+            {
+                MessageBox.Show("Password and Confirm Password do not match.", "Password Mismatch", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Determine the selected gender
+            string gender = rbtnMale.Checked ? "Male" : (rbtnFemale.Checked ? "Female" : "");
+
+            // All checks passed, proceed with insertion
+            string sqlquery = "INSERT INTO CustomerInfo(FullName, Address, PhoneNumber, Gender, Username, Password, ConfirmPassword) " +
+                              $"VALUES('{txtFullname.Text}', '{txtAddress.Text}', '{txtPhoneNumber.Text}', '{gender}', '{txtUsername.Text}', '{txtPassword.Text}', '{txtConPass.Text}')";
+
+            MySqlConnection conn = new MySqlConnection(CONNECTION_STRING);
+            MySqlCommand cmd = new MySqlCommand(sqlquery, conn);
+
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("The record has been inserted!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+
+            this.Hide();
+            Login loginForm = new Login();
+            //loginForm.FormClosed += (s, args) => Close();
+            loginForm.ShowDialog();
         }
     }
 }
