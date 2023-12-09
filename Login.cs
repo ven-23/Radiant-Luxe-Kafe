@@ -30,11 +30,11 @@ namespace Radiant_Luxe_Kafe
         {
             if (cbShowPass.Checked)
             {
-                txtPassword.UseSystemPasswordChar = false;
+                txtPassword.PasswordChar = '\0';
             }
             else
             {
-                txtPassword.UseSystemPasswordChar = true;
+                txtPassword.PasswordChar = '*';
             }
         }
 

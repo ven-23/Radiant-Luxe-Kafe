@@ -24,13 +24,13 @@ namespace Radiant_Luxe_Kafe
         {
             if (cbShowPass.Checked)
             {
-                txtPassword.UseSystemPasswordChar = false;
-                txtConPass.UseSystemPasswordChar = false;
+                txtPassword.PasswordChar = '\0';
+                txtConPass.PasswordChar = '\0';
             }
             else
             {
-                txtPassword.UseSystemPasswordChar = true;
-                txtConPass.UseSystemPasswordChar = true;
+                txtPassword.PasswordChar = '*';
+                txtConPass.PasswordChar = '*';
             }
         }
 
