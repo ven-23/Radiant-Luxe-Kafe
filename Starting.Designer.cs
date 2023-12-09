@@ -56,11 +56,12 @@
             this.btnStart.FocusedColor = System.Drawing.Color.Transparent;
             this.btnStart.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnStart.ForeColor = System.Drawing.Color.Transparent;
-            this.btnStart.Location = new System.Drawing.Point(660, 321);
+            this.btnStart.Location = new System.Drawing.Point(880, 395);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStart.Name = "btnStart";
             this.btnStart.PressedColor = System.Drawing.Color.Transparent;
             this.btnStart.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnStart.Size = new System.Drawing.Size(117, 23);
+            this.btnStart.Size = new System.Drawing.Size(156, 28);
             this.btnStart.TabIndex = 2;
             this.btnStart.UseTransparentBackground = true;
             this.btnStart.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -84,11 +85,12 @@
             this.btnExit.FocusedColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnExit.ForeColor = System.Drawing.Color.Transparent;
-            this.btnExit.Location = new System.Drawing.Point(944, 12);
+            this.btnExit.Location = new System.Drawing.Point(1259, 15);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
             this.btnExit.PressedColor = System.Drawing.Color.Transparent;
             this.btnExit.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnExit.Size = new System.Drawing.Size(19, 17);
+            this.btnExit.Size = new System.Drawing.Size(25, 21);
             this.btnExit.TabIndex = 3;
             this.btnExit.UseTransparentBackground = true;
             this.btnExit.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -112,11 +114,12 @@
             this.btnMin.FocusedColor = System.Drawing.Color.Transparent;
             this.btnMin.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMin.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMin.Location = new System.Drawing.Point(907, 12);
+            this.btnMin.Location = new System.Drawing.Point(1209, 15);
+            this.btnMin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMin.Name = "btnMin";
             this.btnMin.PressedColor = System.Drawing.Color.Transparent;
             this.btnMin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnMin.Size = new System.Drawing.Size(19, 17);
+            this.btnMin.Size = new System.Drawing.Size(25, 21);
             this.btnMin.TabIndex = 4;
             this.btnMin.UseTransparentBackground = true;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
@@ -126,25 +129,27 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::Radiant_Luxe_Kafe.Properties.Resources.bg_starting1;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(975, 601);
+            this.pictureBox1.Size = new System.Drawing.Size(1300, 740);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Starting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(975, 601);
+            this.ClientSize = new System.Drawing.Size(1300, 740);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Starting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

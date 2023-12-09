@@ -34,5 +34,10 @@ namespace Radiant_Luxe_Kafe
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

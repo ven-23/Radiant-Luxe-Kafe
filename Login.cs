@@ -17,7 +17,6 @@ namespace Radiant_Luxe_Kafe
         public Login()
         {
             InitializeComponent();
-            txtPassword.PasswordChar = '*';
         }
 
         private void llblRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
