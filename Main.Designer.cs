@@ -30,13 +30,14 @@
         {
             this.TabPane = new Guna.UI2.WinForms.Guna2TabControl();
             this.Home = new System.Windows.Forms.TabPage();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMin = new Guna.UI2.WinForms.Guna2Button();
             this.btnStart = new Guna.UI2.WinForms.Guna2Button();
             this.Account = new System.Windows.Forms.TabPage();
             this.Menu = new System.Windows.Forms.TabPage();
             this.Cart = new System.Windows.Forms.TabPage();
             this.About = new System.Windows.Forms.TabPage();
-            this.btnMin = new Guna.UI2.WinForms.Guna2Button();
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.TabPane.SuspendLayout();
             this.Home.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +53,7 @@
             this.TabPane.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabPane.ItemSize = new System.Drawing.Size(180, 40);
             this.TabPane.Location = new System.Drawing.Point(0, 0);
-            this.TabPane.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPane.Margin = new System.Windows.Forms.Padding(4);
             this.TabPane.Name = "TabPane";
             this.TabPane.SelectedIndex = 0;
             this.TabPane.Size = new System.Drawing.Size(1312, 752);
@@ -80,115 +81,18 @@
             // 
             this.Home.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_home;
             this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Home.Controls.Add(this.button1);
             this.Home.Controls.Add(this.btnExit);
             this.Home.Controls.Add(this.btnMin);
             this.Home.Controls.Add(this.btnStart);
             this.Home.Location = new System.Drawing.Point(5, 4);
-            this.Home.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Home.Margin = new System.Windows.Forms.Padding(4);
             this.Home.Name = "Home";
-            this.Home.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Home.Padding = new System.Windows.Forms.Padding(4);
             this.Home.Size = new System.Drawing.Size(1303, 744);
             this.Home.TabIndex = 0;
             this.Home.Text = "Home";
             this.Home.UseVisualStyleBackColor = true;
-            // 
-            // btnStart
-            // 
-            this.btnStart.BackColor = System.Drawing.Color.Transparent;
-            this.btnStart.BorderColor = System.Drawing.Color.Transparent;
-            this.btnStart.Checked = true;
-            this.btnStart.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnStart.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnStart.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.btnStart.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnStart.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnStart.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnStart.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnStart.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnStart.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnStart.FillColor = System.Drawing.Color.Transparent;
-            this.btnStart.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnStart.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnStart.ForeColor = System.Drawing.Color.Transparent;
-            this.btnStart.Location = new System.Drawing.Point(592, 476);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.PressedColor = System.Drawing.Color.Transparent;
-            this.btnStart.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnStart.Size = new System.Drawing.Size(209, 41);
-            this.btnStart.TabIndex = 3;
-            this.btnStart.UseTransparentBackground = true;
-            // 
-            // Account
-            // 
-            this.Account.Location = new System.Drawing.Point(5, 4);
-            this.Account.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Account.Name = "Account";
-            this.Account.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Account.Size = new System.Drawing.Size(1303, 744);
-            this.Account.TabIndex = 1;
-            this.Account.Text = "Account";
-            this.Account.UseVisualStyleBackColor = true;
-            // 
-            // Menu
-            // 
-            this.Menu.Location = new System.Drawing.Point(5, 4);
-            this.Menu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(1303, 744);
-            this.Menu.TabIndex = 2;
-            this.Menu.Text = "Menu";
-            this.Menu.UseVisualStyleBackColor = true;
-            // 
-            // Cart
-            // 
-            this.Cart.Location = new System.Drawing.Point(5, 4);
-            this.Cart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Cart.Name = "Cart";
-            this.Cart.Size = new System.Drawing.Size(1303, 744);
-            this.Cart.TabIndex = 3;
-            this.Cart.Text = "Cart";
-            this.Cart.UseVisualStyleBackColor = true;
-            // 
-            // About
-            // 
-            this.About.Location = new System.Drawing.Point(5, 4);
-            this.About.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.About.Name = "About";
-            this.About.Size = new System.Drawing.Size(1303, 744);
-            this.About.TabIndex = 4;
-            this.About.Text = "About";
-            this.About.UseVisualStyleBackColor = true;
-            // 
-            // btnMin
-            // 
-            this.btnMin.BackColor = System.Drawing.Color.Transparent;
-            this.btnMin.BorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.Checked = true;
-            this.btnMin.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.btnMin.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMin.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMin.FillColor = System.Drawing.Color.Transparent;
-            this.btnMin.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnMin.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMin.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMin.Location = new System.Drawing.Point(1212, 15);
-            this.btnMin.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMin.Name = "btnMin";
-            this.btnMin.PressedColor = System.Drawing.Color.Transparent;
-            this.btnMin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnMin.Size = new System.Drawing.Size(25, 21);
-            this.btnMin.TabIndex = 5;
-            this.btnMin.UseTransparentBackground = true;
-            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // btnExit
             // 
@@ -219,6 +123,113 @@
             this.btnExit.UseTransparentBackground = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // btnMin
+            // 
+            this.btnMin.BackColor = System.Drawing.Color.Transparent;
+            this.btnMin.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.Checked = true;
+            this.btnMin.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMin.FillColor = System.Drawing.Color.Transparent;
+            this.btnMin.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnMin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMin.Location = new System.Drawing.Point(1212, 15);
+            this.btnMin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.PressedColor = System.Drawing.Color.Transparent;
+            this.btnMin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnMin.Size = new System.Drawing.Size(25, 21);
+            this.btnMin.TabIndex = 5;
+            this.btnMin.UseTransparentBackground = true;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
+            // 
+            // btnStart
+            // 
+            this.btnStart.BackColor = System.Drawing.Color.Transparent;
+            this.btnStart.BorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.Checked = true;
+            this.btnStart.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnStart.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStart.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnStart.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnStart.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnStart.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnStart.FillColor = System.Drawing.Color.Transparent;
+            this.btnStart.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnStart.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnStart.ForeColor = System.Drawing.Color.Transparent;
+            this.btnStart.Location = new System.Drawing.Point(592, 476);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.PressedColor = System.Drawing.Color.Transparent;
+            this.btnStart.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnStart.Size = new System.Drawing.Size(209, 41);
+            this.btnStart.TabIndex = 3;
+            this.btnStart.UseTransparentBackground = true;
+            // 
+            // Account
+            // 
+            this.Account.Location = new System.Drawing.Point(5, 4);
+            this.Account.Margin = new System.Windows.Forms.Padding(4);
+            this.Account.Name = "Account";
+            this.Account.Padding = new System.Windows.Forms.Padding(4);
+            this.Account.Size = new System.Drawing.Size(1303, 744);
+            this.Account.TabIndex = 1;
+            this.Account.Text = "Account";
+            this.Account.UseVisualStyleBackColor = true;
+            // 
+            // Menu
+            // 
+            this.Menu.Location = new System.Drawing.Point(5, 4);
+            this.Menu.Margin = new System.Windows.Forms.Padding(4);
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(1303, 744);
+            this.Menu.TabIndex = 2;
+            this.Menu.Text = "Menu";
+            this.Menu.UseVisualStyleBackColor = true;
+            // 
+            // Cart
+            // 
+            this.Cart.Location = new System.Drawing.Point(5, 4);
+            this.Cart.Margin = new System.Windows.Forms.Padding(4);
+            this.Cart.Name = "Cart";
+            this.Cart.Size = new System.Drawing.Size(1303, 744);
+            this.Cart.TabIndex = 3;
+            this.Cart.Text = "Cart";
+            this.Cart.UseVisualStyleBackColor = true;
+            // 
+            // About
+            // 
+            this.About.Location = new System.Drawing.Point(5, 4);
+            this.About.Margin = new System.Windows.Forms.Padding(4);
+            this.About.Name = "About";
+            this.About.Size = new System.Drawing.Size(1303, 744);
+            this.About.TabIndex = 4;
+            this.About.Text = "About";
+            this.About.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(554, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -226,7 +237,7 @@
             this.ClientSize = new System.Drawing.Size(1312, 752);
             this.Controls.Add(this.TabPane);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -248,5 +259,6 @@
         private Guna.UI2.WinForms.Guna2Button btnStart;
         private Guna.UI2.WinForms.Guna2Button btnMin;
         private Guna.UI2.WinForms.Guna2Button btnExit;
+        private System.Windows.Forms.Button button1;
     }
 }
