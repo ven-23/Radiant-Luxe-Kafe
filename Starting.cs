@@ -29,5 +29,10 @@ namespace Radiant_Luxe_Kafe
             login.ShowDialog();
             
         }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

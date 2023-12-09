@@ -30,40 +30,96 @@
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnStart = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMin = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Button1
+            // btnStart
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Checked = true;
-            this.guna2Button1.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.FocusedColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Location = new System.Drawing.Point(660, 321);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.guna2Button1.Size = new System.Drawing.Size(117, 23);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.UseTransparentBackground = true;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnStart.BackColor = System.Drawing.Color.Transparent;
+            this.btnStart.BorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.Checked = true;
+            this.btnStart.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnStart.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStart.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnStart.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnStart.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnStart.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnStart.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnStart.FillColor = System.Drawing.Color.Transparent;
+            this.btnStart.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnStart.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnStart.ForeColor = System.Drawing.Color.Transparent;
+            this.btnStart.Location = new System.Drawing.Point(660, 321);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.PressedColor = System.Drawing.Color.Transparent;
+            this.btnStart.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnStart.Size = new System.Drawing.Size(117, 23);
+            this.btnStart.TabIndex = 2;
+            this.btnStart.UseTransparentBackground = true;
+            this.btnStart.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.Checked = true;
+            this.btnExit.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.Transparent;
+            this.btnExit.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.Location = new System.Drawing.Point(944, 12);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.PressedColor = System.Drawing.Color.Transparent;
+            this.btnExit.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnExit.Size = new System.Drawing.Size(19, 17);
+            this.btnExit.TabIndex = 3;
+            this.btnExit.UseTransparentBackground = true;
+            this.btnExit.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // btnMin
+            // 
+            this.btnMin.BackColor = System.Drawing.Color.Transparent;
+            this.btnMin.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.Checked = true;
+            this.btnMin.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMin.FillColor = System.Drawing.Color.Transparent;
+            this.btnMin.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnMin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMin.Location = new System.Drawing.Point(907, 12);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.PressedColor = System.Drawing.Color.Transparent;
+            this.btnMin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnMin.Size = new System.Drawing.Size(19, 17);
+            this.btnMin.TabIndex = 4;
+            this.btnMin.UseTransparentBackground = true;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // pictureBox1
             // 
@@ -76,70 +132,15 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Checked = true;
-            this.guna2Button2.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.FocusedColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Location = new System.Drawing.Point(944, 12);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.guna2Button2.Size = new System.Drawing.Size(19, 17);
-            this.guna2Button2.TabIndex = 3;
-            this.guna2Button2.UseTransparentBackground = true;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Checked = true;
-            this.guna2Button3.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button3.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.FocusedColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Location = new System.Drawing.Point(907, 12);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.guna2Button3.Size = new System.Drawing.Size(19, 17);
-            this.guna2Button3.TabIndex = 4;
-            this.guna2Button3.UseTransparentBackground = true;
-            // 
             // Starting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(975, 601);
-            this.Controls.Add(this.guna2Button3);
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btnMin);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -158,9 +159,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnStart;
+        private Guna.UI2.WinForms.Guna2Button btnExit;
+        private Guna.UI2.WinForms.Guna2Button btnMin;
     }
 }
 
