@@ -37,8 +37,8 @@ namespace Radiant_Luxe_Kafe
         private void btnRegister_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtFullname.Text) || string.IsNullOrEmpty(txtAddress.Text) || string.IsNullOrEmpty(txtPhoneNumber.Text) ||
-    string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text) ||
-    string.IsNullOrEmpty(txtConPass.Text) || (!rbtnMale.Checked && !rbtnFemale.Checked))
+                string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text) ||
+                string.IsNullOrEmpty(txtConPass.Text) || (!rbtnMale.Checked && !rbtnFemale.Checked))
             {
                 MessageBox.Show("Please provide complete information, including selecting a gender.", "Incomplete Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
