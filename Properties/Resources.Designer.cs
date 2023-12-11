@@ -73,9 +73,39 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg_home_2 {
+            get {
+                object obj = ResourceManager.GetObject("bg home 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_home_3 {
+            get {
+                object obj = ResourceManager.GetObject("bg home 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg_login {
             get {
                 object obj = ResourceManager.GetObject("bg login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_register {
+            get {
+                object obj = ResourceManager.GetObject("bg register", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +136,16 @@ namespace Radiant_Luxe_Kafe.Properties {
         internal static System.Drawing.Bitmap examplecoffee {
             get {
                 object obj = ResourceManager.GetObject("examplecoffee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap splash_s {
+            get {
+                object obj = ResourceManager.GetObject("splash s", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -16,7 +16,7 @@ namespace Radiant_Luxe_Kafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Starting());
+            Application.Run(new splashscreen());
         }
     }
 }

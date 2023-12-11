@@ -39,6 +39,9 @@
     <Reference Include="Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.9.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.Charts.WinForms.1.0.9\lib\net472\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
@@ -129,11 +132,11 @@
     <Compile Include="ShowCoffeePanel.Designer.cs">
       <DependentUpon>ShowCoffeePanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Starting.cs">
+    <Compile Include="splashscreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Starting.Designer.cs">
-      <DependentUpon>Starting.cs</DependentUpon>
+    <Compile Include="splashscreen.Designer.cs">
+      <DependentUpon>splashscreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -158,8 +161,8 @@
     <EmbeddedResource Include="ShowCoffeePanel.resx">
       <DependentUpon>ShowCoffeePanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Starting.resx">
-      <DependentUpon>Starting.cs</DependentUpon>
+    <EmbeddedResource Include="splashscreen.resx">
+      <DependentUpon>splashscreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -199,6 +202,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\examplecoffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg home 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg home 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg register.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
