@@ -45,7 +45,7 @@ namespace Radiant_Luxe_Kafe
                     CoffeeName = "Hot Brewed Coffee",
                     Description = "Swing by and warm up while enjoying any of our three roasts brewed daily.",
                     Price = 100,
-                    Picture = "C:\\BUTIAL_RAVEN\\Radiant-Luxe-Kafe\\Resources\\hot brewed coffee1.png"
+                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\hot brewed coffee1.png"
                 },
                 new Coffee
                 {
@@ -290,16 +290,17 @@ namespace Radiant_Luxe_Kafe
             {
                 var control = new CartControl(coffee, RemoveCoffeeFromCart);
                 CartPanel.Controls.Add(control);
-
+                total += coffee.Price * coffee.Quantity;
                 // Append quantity, coffee name, and total price for each item in the cart
-                rtbReceipt.AppendText($" * {coffee.Quantity} x {coffee.CoffeeName}: {coffee.Price:C} each\n");
+                rtbReceipt.AppendText($"\r\n•••••••••••OFFICIAL RECEIPT•••••••••••\r\n\r\n                    RadiantLuxe Kafé\r\n                MacArthur Hwy, Angeles, \r\n                       2009 Pampanga\r\n\r\n•••••••••••••••••••••••••••••••••••••\r\n                    December 12, 2023\r\n                           12:03 AM\r\n••••••••••••••••••••••••••••••••••••\r\nQty:        Item:                          Price:\r\n{coffee.Quantity}              {coffee.CoffeeName}           {coffee.Price:C}\r\n\r\nTax (X%):\r\n\r\nTOTAL:                                 {total.ToString("C")}\r\n••••••••••••••••••••••••••••••••••\r\n\r\n         Thank you for choosing RadiantLuxe Kafé! We appreciate\r\n                your business.\r\n\r\n\r\n                ccs@auf.edu.ph\r\n                + 537-729-647\r\n\r\n");
+                //rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t{coffee.Price:C}\n");
 
                 // Calculate and accumulate the total price for all items
                 total += coffee.Price * coffee.Quantity;
             }
 
             // Display the total price at the end
-            rtbReceipt.AppendText($"\nTotal Price: {total.ToString("C")}");
+            //rtbReceipt.AppendText($"\nTotal Price: {total.ToString("C")}");
         }
 
         private void RemoveCoffeeFromCart(Coffee coffee)
@@ -582,6 +583,9 @@ namespace Radiant_Luxe_Kafe
         private void guna2Button14_Click(object sender, EventArgs e)
         {
             TabPane.SelectedTab = Cart;
+            rtbReceipt.SelectAll();
+            rtbReceipt.SelectionAlignment = HorizontalAlignment.Center;
+            rtbReceipt.Text += "";
             DisplayCart();
         }
 
@@ -688,6 +692,8 @@ namespace Radiant_Luxe_Kafe
         private void loginBtn(object sender, EventArgs e)
         {
             TabPane.SelectedTab = Account;
+            error wrong = new error();
+            wrong.ShowDialog();
         }
 
         private void exitBtn(object sender, EventArgs e)

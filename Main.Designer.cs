@@ -1220,6 +1220,7 @@
             // 
             // Cart
             // 
+            this.Cart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Cart.Controls.Add(this.btnClear);
             this.Cart.Controls.Add(this.button5);
             this.Cart.Controls.Add(this.button4);
@@ -1265,19 +1266,22 @@
             // 
             // rtbReceipt
             // 
+            this.rtbReceipt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.rtbReceipt.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbReceipt.Location = new System.Drawing.Point(574, 70);
             this.rtbReceipt.Name = "rtbReceipt";
-            this.rtbReceipt.Size = new System.Drawing.Size(349, 470);
+            this.rtbReceipt.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.rtbReceipt.Size = new System.Drawing.Size(344, 470);
             this.rtbReceipt.TabIndex = 1;
             this.rtbReceipt.Text = "";
             this.rtbReceipt.TextChanged += new System.EventHandler(this.rtbReceipt_TextChanged);
             // 
             // CartPanel
             // 
-            this.CartPanel.Location = new System.Drawing.Point(73, 70);
+            this.CartPanel.Location = new System.Drawing.Point(48, 70);
             this.CartPanel.Margin = new System.Windows.Forms.Padding(2);
             this.CartPanel.Name = "CartPanel";
-            this.CartPanel.Size = new System.Drawing.Size(446, 470);
+            this.CartPanel.Size = new System.Drawing.Size(471, 470);
             this.CartPanel.TabIndex = 0;
             this.CartPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.CartPanel_Paint);
             // 

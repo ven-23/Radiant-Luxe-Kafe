@@ -106,7 +106,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cart.cs" />
     <Compile Include="CartControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
