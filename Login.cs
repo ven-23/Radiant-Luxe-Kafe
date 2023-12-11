@@ -14,6 +14,7 @@ namespace Radiant_Luxe_Kafe
     public partial class Login : Form
     {
         private const string CONNECTION_STRING = "server=localhost;user id = root; password=; database=dbRLK;";
+        
         public Login()
         {
             InitializeComponent();
@@ -67,7 +68,7 @@ namespace Radiant_Luxe_Kafe
                     {
                         MessageBox.Show("Login successful!");
                         Hide();
-                        Main main = new Main();
+                        Main main = new Main(enteredUsername);
                         //MainForm.FormClosed += (s, args) => Close();
                         main.ShowDialog();
                     }
