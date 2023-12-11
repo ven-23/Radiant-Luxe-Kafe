@@ -140,11 +140,12 @@
             this.Home.Controls.Add(this.btnMenu);
             this.Home.Location = new System.Drawing.Point(5, 4);
             this.Home.Name = "Home";
-            this.Home.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Home.Padding = new System.Windows.Forms.Padding(3);
             this.Home.Size = new System.Drawing.Size(975, 603);
             this.Home.TabIndex = 0;
             this.Home.Text = "Home";
             this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
             // guna2Button5
             // 
@@ -415,7 +416,7 @@
             this.Account.Controls.Add(this.button1);
             this.Account.Location = new System.Drawing.Point(5, 4);
             this.Account.Name = "Account";
-            this.Account.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Account.Padding = new System.Windows.Forms.Padding(3);
             this.Account.Size = new System.Drawing.Size(975, 603);
             this.Account.TabIndex = 1;
             this.Account.Text = "Account";
@@ -881,7 +882,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(898, 25);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(56, 19);
             this.button2.TabIndex = 8;
@@ -944,7 +945,7 @@
             // CartPanel
             // 
             this.CartPanel.Location = new System.Drawing.Point(73, 70);
-            this.CartPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CartPanel.Margin = new System.Windows.Forms.Padding(2);
             this.CartPanel.Name = "CartPanel";
             this.CartPanel.Size = new System.Drawing.Size(446, 470);
             this.CartPanel.TabIndex = 0;
