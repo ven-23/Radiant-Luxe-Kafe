@@ -30,7 +30,7 @@
         {
             this.TabPane = new Guna.UI2.WinForms.Guna2TabControl();
             this.Home = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblHello = new System.Windows.Forms.Label();
             this.guna2Button27 = new Guna.UI2.WinForms.Guna2Button();
             this.btnAccount = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
@@ -155,7 +155,7 @@
             // 
             this.Home.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_home_4;
             this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Home.Controls.Add(this.label1);
+            this.Home.Controls.Add(this.lblHello);
             this.Home.Controls.Add(this.guna2Button27);
             this.Home.Controls.Add(this.btnAccount);
             this.Home.Controls.Add(this.guna2Button4);
@@ -175,16 +175,16 @@
             this.Home.UseVisualStyleBackColor = true;
             this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
-            // label1
+            // lblHello
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(52)))), ((int)(((byte)(8)))));
-            this.label1.Location = new System.Drawing.Point(729, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 17);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Hello, ";
+            this.lblHello.AutoSize = true;
+            this.lblHello.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHello.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(52)))), ((int)(((byte)(8)))));
+            this.lblHello.Location = new System.Drawing.Point(729, 38);
+            this.lblHello.Name = "lblHello";
+            this.lblHello.Size = new System.Drawing.Size(50, 17);
+            this.lblHello.TabIndex = 15;
+            this.lblHello.Text = "Hello!";
             // 
             // guna2Button27
             // 
@@ -197,9 +197,9 @@
             this.guna2Button27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
             this.guna2Button27.Font = new System.Drawing.Font("Lucida Sans", 8.25F);
             this.guna2Button27.ForeColor = System.Drawing.Color.White;
-            this.guna2Button27.Location = new System.Drawing.Point(610, 34);
+            this.guna2Button27.Location = new System.Drawing.Point(610, 31);
             this.guna2Button27.Name = "guna2Button27";
-            this.guna2Button27.Size = new System.Drawing.Size(67, 26);
+            this.guna2Button27.Size = new System.Drawing.Size(80, 26);
             this.guna2Button27.TabIndex = 14;
             this.guna2Button27.Text = "Sign In";
             this.guna2Button27.Click += new System.EventHandler(this.guna2Button27_Click);
@@ -363,7 +363,7 @@
             this.btnLogin.FocusedColor = System.Drawing.Color.Transparent;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnLogin.ForeColor = System.Drawing.Color.Transparent;
-            this.btnLogin.Location = new System.Drawing.Point(628, 41);
+            this.btnLogin.Location = new System.Drawing.Point(628, 38);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.PressedColor = System.Drawing.Color.Transparent;
             this.btnLogin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
@@ -1961,7 +1961,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button29;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button31;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblHello;
         private Guna.UI2.WinForms.Guna2Button guna2Button32;
         private Guna.UI2.WinForms.Guna2Button guna2Button33;
         private Guna.UI2.WinForms.Guna2Button guna2Button34;

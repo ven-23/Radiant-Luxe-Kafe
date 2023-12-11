@@ -95,7 +95,7 @@ namespace Radiant_Luxe_Kafe
 
         private void btnGoBack_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             Main main = new Main();
             main.Show();
         }

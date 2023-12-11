@@ -19,8 +19,8 @@ namespace Radiant_Luxe_Kafe
         private string _username;
         private List<Coffee> coffeeList;
         private List<Coffee> shoppingCart = new List<Coffee>();
-
-        private bool isCartDisplayed = false;
+        private bool isLoggedIn = false;
+        
 
         private const string CONNECTION_STRING = "server=localhost;user id = root; password=; database=dbRLK;";
 
@@ -32,9 +32,28 @@ namespace Radiant_Luxe_Kafe
 
         public Main(string username)
         {
-            _username = username;
             InitializeComponent();
+            _username = username;
+            lblHello.Text = $"Hello, {username}.";
             coffeeList = InitializeCoffeeList();
+
+            if (string.IsNullOrEmpty(_username))
+            {
+                guna2Button27.Text = "Sign In";
+            }
+            else
+            {
+                guna2Button27.Text = "Sign Out";
+                   
+                    lblHello.Text = "Hello!";
+                    lblFullName.Text = "";
+                    lblAddress.Text = "";
+                    lblPhoneNumber.Text = "";
+                    lblGender.Text = "";
+                    lblUsername.Text = "";
+                
+                // Perform logout actions if needed
+            }
         }
 
         private List<Coffee> InitializeCoffeeList()
@@ -697,6 +716,7 @@ namespace Radiant_Luxe_Kafe
 
                             // For example, update labels in the "Account" tab:
                             //lblUserId.Text = userId.ToString();
+                            
                             lblFullName.Text = fullName;
                             lblAddress.Text = address;
                             lblPhoneNumber.Text = phoneNumber;
@@ -719,7 +739,7 @@ namespace Radiant_Luxe_Kafe
         private void guna2Button27_Click(object sender, EventArgs e)
         {
             Login login = new Login();
-            login.Show();
+            login.Show(); 
         }
 
         private void guna2Button37_Click(object sender, EventArgs e)
