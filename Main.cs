@@ -15,6 +15,7 @@ namespace Radiant_Luxe_Kafe
 {
     public partial class Main : Form
     {
+        private string _username;
         private List<Coffee> coffeeList;
         private List<Coffee> shoppingCart = new List<Coffee>();
 
@@ -22,6 +23,13 @@ namespace Radiant_Luxe_Kafe
 
         public Main()
         {
+            InitializeComponent();
+            coffeeList = InitializeCoffeeList();
+        }
+
+        public Main(string username)
+        {
+            _username = username;
             InitializeComponent();
             coffeeList = InitializeCoffeeList();
         }
@@ -385,6 +393,55 @@ namespace Radiant_Luxe_Kafe
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             TabPane.SelectedTab = Account;
+
+            // Check the entered username in the database
+            string sqlQuery = $"SELECT * FROM customerinfo WHERE Username = @Username";
+
+            using (MySqlConnection conn = new MySqlConnection(CONNECTION_STRING))
+            using (MySqlCommand cmd = new MySqlCommand(sqlQuery, conn))
+            {
+                cmd.Parameters.AddWithValue("@Username", _username);
+
+                try
+                {
+                    conn.Open();
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if(reader.Read())
+                        {
+                            //int userId = reader.GetInt32("Id");
+                            string fullName = reader.GetString("FullName");
+                            string address = reader.GetString("Address");
+                            string phoneNumber = reader.GetString("PhoneNumber");
+                            string gender = reader.GetString("Gender");
+                            string username = reader.GetString("Username");
+                            string password = reader.GetString("Password");
+
+                            // Now you have the user information, and you can display it in the "Account" tab or store it as needed.
+
+                            // For example, update labels in the "Account" tab:
+                            //lblUserId.Text = userId.ToString();
+                            lblFullName.Text = fullName;
+                            lblAddress.Text = address;
+                            lblPhoneNumber.Text = phoneNumber;
+                            lblGender.Text = gender;
+                            lblUsername.Text = username;
+                            lblPassword.Text = password;
+
+                            MessageBox.Show("User information loaded successfully!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("User not found in the database.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
         }
 
         private void bDarkCaramelCoffeeFrappuccino_Click(object sender, EventArgs e)
