@@ -69,7 +69,7 @@ namespace Radiant_Luxe_Kafe
                         MessageBox.Show("Login successful!");
                         Hide();
                         Main main = new Main(enteredUsername);
-                        //MainForm.FormClosed += (s, args) => Close();
+                        main.FormClosed += (s, args) => Close();
                         main.ShowDialog();
                     }
                     else
@@ -90,6 +90,13 @@ namespace Radiant_Luxe_Kafe
         }
 
         private void btnGoBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Main main = new Main();

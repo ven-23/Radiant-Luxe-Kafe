@@ -1594,6 +1594,7 @@
             // 
             // CartPanel
             // 
+            this.CartPanel.AutoScroll = true;
             this.CartPanel.Location = new System.Drawing.Point(426, 94);
             this.CartPanel.Margin = new System.Windows.Forms.Padding(2);
             this.CartPanel.Name = "CartPanel";

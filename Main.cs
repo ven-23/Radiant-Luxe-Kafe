@@ -42,15 +42,15 @@ namespace Radiant_Luxe_Kafe
                 //Hot Coffee
                 new Coffee
                 {
-                    Id = 1,
+                    Id = 0,
                     CoffeeName = "Hot Brewed Coffee",
                     Description = "Swing by and warm up while enjoying any of our three roasts brewed daily.",
                     Price = 100,
-                    Picture = "C:\\BUTIAL_RAVEN\\Radiant-Luxe-Kafe\\Resources\\hot brewed coffee1.png"
+                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\hot brewed coffee1.png"
                 },
                 new Coffee
                 {
-                    Id = 2,
+                    Id = 1,
                     CoffeeName = "Caffe Misto",
                     Description = "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
                     Price = 150,
@@ -58,7 +58,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 3,
+                    Id = 2,
                     CoffeeName = "Espresso",
                     Description = "Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.",
                     Price = 140,
@@ -66,7 +66,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 4,
+                    Id = 3,
                     CoffeeName = "Flat White",
                     Description = "Bold ristretto shots of espresso get the perfect amount of steamed whole milk to create a not too strong, not too creamy, just right flavor, finished with a beautiful dot.",
                     Price = 150,
@@ -74,7 +74,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 5,
+                    Id = 4,
                     CoffeeName = "Signature Hot Chocolate",
                     Description = "Steamed milk and mocha sauce topped with sweetened whipped cream and a chocolate-flavored drizzle. A timeless classic made to sweeten your spirits.",
                     Price = 100,
@@ -82,7 +82,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 6,
+                    Id = 5,
                     CoffeeName = "White Hot Chocolate",
                     Description = "A traditional hot chocolate beverage made with white chocolate sauce and steamed milk, topped with whipped cream.",
                     Price = 150,
@@ -91,15 +91,15 @@ namespace Radiant_Luxe_Kafe
                 // Iced Coffee
                 new Coffee
                 {
-                    Id = 1,
+                    Id = 6,
                     CoffeeName = "Americano",
                     Description = "Espresso shots are topped with water to produce a light layer of crema, then served over ice. The result is this wonderfully rich cup with depth and nuance.",
                     Price = 100,
-                    //Picture = "C:\\Users\\Rianne\\Desktop\\Radiant-Luxe-Kaffe\\Resources\\iced americano1.png"
+                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\iced americano1.png"
                 },
                 new Coffee
                 {
-                    Id = 2,
+                    Id = 7,
                     CoffeeName = "Caffe Mocha",
                     Description = "Espresso combined with bittersweet mocha sauce and milk over ice. Topped with sweetened whipped cream.",
                     Price = 150,
@@ -107,7 +107,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 3,
+                    Id = 8,
                     CoffeeName = "Cappuccino",
                     Description = "Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam. An alchemy of barista artistry and craft.",
                     Price = 140,
@@ -115,7 +115,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 4,
+                    Id = 9,
                     CoffeeName = "Caramel Macchiato",
                     Description = "We combine our rich, full-bodied espresso with vanilla-flavored syrup, milk and ice, then top it off with caramel drizzle for an oh-so-sweet finish.",
                     Price = 150,
@@ -123,7 +123,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 5,
+                    Id = 10,
                     CoffeeName = "Green Tea Latte",
                     Description = "Smooth and creamy matcha is lightly sweetened and served with milk and ice.",
                     Price = 100,
@@ -131,7 +131,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 6,
+                    Id = 11,
                     CoffeeName = "White Chocolate Mocha",
                     Description = "Our signature espresso meets white chocolate sauce, milk and ice, then is finished off with sweetened whipped cream in this white chocolate delight.",
                     Price = 150,
@@ -140,15 +140,15 @@ namespace Radiant_Luxe_Kafe
                 // Blended Drinks
                 new Coffee
                 {
-                    Id = 1,
+                    Id = 12,
                     CoffeeName = "Caramel Frappuccino",
                     Description = "Buttery caramel syrup meets coffee, milk and ice for a rendezvous in the blender. Then whipped cream and caramel sauce layer the love on top.",
                     Price = 100,
-                    //Picture = "C:\\Users\\Rianne\\Desktop\\Radiant-Luxe-Kaffe\\Resources\\blended caramel frappuccino1.png"
+                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\blended caramel frappuccino1.png"
                 },
                 new Coffee
                 {
-                    Id = 2,
+                    Id = 13,
                     CoffeeName = "Dark Caramel Coffee Frappuccino",
                     Description = "Dark caramel coffee Frappuccino is topped with buttery dark caramel sauce and layered between signature whipped cream infused with cold brew, dark caramel sauce, and white chocolate mocha, and a dollop of dark caramel sauce at the bottom of the cup.\r\n",
                     Price = 150,
@@ -156,7 +156,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 3,
+                    Id = 14,
                     CoffeeName = "Java Chip Frappuccino",
                     Description = "We blend mocha sauce and Frappuccino® chips with Frappuccino® roast coffee and milk and ice, then top with whipped cream and mocha drizzle to bring you endless java joy.\r\n",
                     Price = 140,
@@ -164,7 +164,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 4,
+                    Id = 15,
                     CoffeeName = "Strawberries & Cream Frappuccino",
                     Description = "Strawberries and milk are blended with ice and topped with a swirl of whipped cream. Sip on the crème of the crop.",
                     Price = 150,
@@ -172,7 +172,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 5,
+                    Id = 16,
                     CoffeeName = "Triple Mocha Frappuccino",
                     Description = "Your favorite Mocha Frappuccino is topped with rich dark mocha sauce and layered between the signature whipped cream infused with cold brew, dark caramel sauce, and white chocolate mocha, and a dollop of dark mocha sauce at the bottom of the cup.\r\n",
                     Price = 100,
@@ -180,7 +180,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 6,
+                    Id = 17,
                     CoffeeName = "Vanilla Cream Frappuccino",
                     Description = "This rich and creamy blend of vanilla bean, milk and ice topped with whipped cream takes va-va-vanilla flavor to another level.\r\n",
                     Price = 150,
@@ -189,7 +189,7 @@ namespace Radiant_Luxe_Kafe
                  // Add-ons
                 new Coffee
                 {
-                    Id = 1,
+                    Id = 18,
                     CoffeeName = "Butter",
                     Description = "Butter for smoother mouthfeel and a slightly creamy taste",
                     Price = 100,
@@ -197,15 +197,15 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 2,
+                    Id = 19,
                     CoffeeName = "Honey",
                     Description = "Honey for natural sweetness.",
                     Price = 150,
-                    //Picture = "C:\\Users\\Rianne\\Desktop\\Radiant-Luxe-Kaffe\\Resources\\honey.png"
+                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\honey.png"
                 },
                 new Coffee
                 {
-                    Id = 3,
+                    Id = 20,
                     CoffeeName = "Milk",
                     Description = "Milk for more creamier drink.",
                     Price = 140,
@@ -287,22 +287,22 @@ namespace Radiant_Luxe_Kafe
 
             decimal total = 0;
 
+            // Append receipt header
+            rtbReceipt.AppendText($"\r\n•••••••••••OFFICIAL RECEIPT•••••••••••\r\n\r\n                    RadiantLuxe Kafé\r\n                MacArthur Hwy, Angeles, \r\n                       2009 Pampanga\r\n\r\n•••••••••••••••••••••••••••••••••••••\r\n                    December 12, 2023\r\n                           12:03 AM\r\n••••••••••••••••••••••••••••••••••••\r\nQty:        Item:                          Price:\r\n");
+
             foreach (var coffee in shoppingCart)
             {
                 var control = new CartControl(coffee, RemoveCoffeeFromCart);
                 CartPanel.Controls.Add(control);
                 total += coffee.Price * coffee.Quantity;
-                // Append quantity, coffee name, and total price for each item in the cart
-                rtbReceipt.AppendText($"\r\n•••••••••••OFFICIAL RECEIPT•••••••••••\r\n\r\n                    RadiantLuxe Kafé\r\n                MacArthur Hwy, Angeles, \r\n                       2009 Pampanga\r\n\r\n•••••••••••••••••••••••••••••••••••••\r\n                    December 12, 2023\r\n                           12:03 AM\r\n••••••••••••••••••••••••••••••••••••\r\nQty:        Item:                          Price:\r\n{coffee.Quantity}              {coffee.CoffeeName}           {coffee.Price:C}\r\n\r\nTax (X%):\r\n\r\nTOTAL:                                 {total.ToString("C")}\r\n••••••••••••••••••••••••••••••••••\r\n\r\n         Thank you for choosing RadiantLuxe Kafé! We appreciate\r\n                your business.\r\n\r\n\r\n                ccs@auf.edu.ph\r\n                + 537-729-647\r\n\r\n");
-                //rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t{coffee.Price:C}\n");
 
-                // Calculate and accumulate the total price for all items
-                total += coffee.Price * coffee.Quantity;
+                // Append quantity, coffee name, and total price for each item in the cart
+                rtbReceipt.AppendText($"{coffee.Quantity}              {coffee.CoffeeName}           {coffee.Price:C}\r\n");
             }
 
-            // Display the total price at the end
-            //rtbReceipt.AppendText($"\nTotal Price: {total.ToString("C")}");
-        }
+            // Append tax and total
+            rtbReceipt.AppendText($"\r\nTax (X%):\r\n\r\nTOTAL:");
+    }
 
         private void RemoveCoffeeFromCart(Coffee coffee)
         {
@@ -395,54 +395,6 @@ namespace Radiant_Luxe_Kafe
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             TabPane.SelectedTab = Account;
-
-            // Check the entered username in the database
-            string sqlQuery = $"SELECT * FROM customerinfo WHERE Username = @Username";
-
-            using (MySqlConnection conn = new MySqlConnection(CONNECTION_STRING))
-            using (MySqlCommand cmd = new MySqlCommand(sqlQuery, conn))
-            {
-                cmd.Parameters.AddWithValue("@Username", _username);
-
-                try
-                {
-                    conn.Open();
-                    using (MySqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        if(reader.Read())
-                        {
-                            //int userId = reader.GetInt32("Id");
-                            string fullName = reader.GetString("FullName");
-                            string address = reader.GetString("Address");
-                            string phoneNumber = reader.GetString("PhoneNumber");
-                            string gender = reader.GetString("Gender");
-                            string username = reader.GetString("Username");
-                            string password = reader.GetString("Password");
-
-                            // Now you have the user information, and you can display it in the "Account" tab or store it as needed.
-
-                            // For example, update labels in the "Account" tab:
-                            //lblUserId.Text = userId.ToString();
-                            lblFullName.Text = fullName;
-                            lblAddress.Text = address;
-                            lblPhoneNumber.Text = phoneNumber;
-                            lblGender.Text = gender;
-                            lblUsername.Text = username;
-
-                            MessageBox.Show("User information loaded successfully!");
-                        }
-                        else
-                        {
-                            MessageBox.Show("User not found in the database.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-
         }
 
         private void bDarkCaramelCoffeeFrappuccino_Click(object sender, EventArgs e)
@@ -707,6 +659,51 @@ namespace Radiant_Luxe_Kafe
         private void accBtn(object sender, EventArgs e)
         {
             TabPane.SelectedTab = Account;
+
+            // Check the entered username in the database
+            string sqlQuery = $"SELECT * FROM customerinfo WHERE Username = @Username";
+
+            using (MySqlConnection conn = new MySqlConnection(CONNECTION_STRING))
+            using (MySqlCommand cmd = new MySqlCommand(sqlQuery, conn))
+            {
+                cmd.Parameters.AddWithValue("@Username", _username);
+
+                try
+                {
+                    conn.Open();
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            //int userId = reader.GetInt32("Id");
+                            string fullName = reader.GetString("FullName");
+                            string address = reader.GetString("Address");
+                            string phoneNumber = reader.GetString("PhoneNumber");
+                            string gender = reader.GetString("Gender");
+                            string username = reader.GetString("Username");
+                            string password = reader.GetString("Password");
+
+                            // Now you have the user information, and you can display it in the "Account" tab or store it as needed.
+
+                            // For example, update labels in the "Account" tab:
+                            //lblUserId.Text = userId.ToString();
+                            lblFullName.Text = fullName;
+                            lblAddress.Text = address;
+                            lblPhoneNumber.Text = phoneNumber;
+                            lblGender.Text = gender;
+                            lblUsername.Text = username;
+                        }
+                        else
+                        {
+                            MessageBox.Show("User not found in the database.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
 
         private void guna2Button27_Click(object sender, EventArgs e)
