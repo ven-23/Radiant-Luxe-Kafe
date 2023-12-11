@@ -22,6 +22,7 @@ namespace Radiant_Luxe_Kafe
         {
             InitializeComponent();
             rtbDescription.HideSelection = true;
+            rtbDescription.Text = coffee.Description;
             lblCoffeeName.Text = coffee.CoffeeName;
             lblPrice.Text = coffee.Price.ToString();
             lblQty.Text = coffee.Quantity.ToString();  // Display the initial quantity
@@ -61,6 +62,11 @@ namespace Radiant_Luxe_Kafe
                 coffee.Quantity--;
                 lblQty.Text = coffee.Quantity.ToString();
             }
+        }
+
+        private void rtbDescription_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

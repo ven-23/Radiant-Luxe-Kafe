@@ -34,10 +34,10 @@ namespace Radiant_Luxe_Kafe
                 new Coffee
                 {
                     Id = 1,
-                    CoffeeName = "Cappuccino",
-                    Description = "Coffee 1 Desc",
+                    CoffeeName = "Hot Brewed Coffee",
+                    Description = "Swing by and warm up while enjoying any of our three roasts brewed daily.",
                     Price = 100,
-                    Picture = "C:\\BUTIAL_RAVEN\\Radiant-Luxe-Kafe\\Resources\\coffees\\blended caramel frappuccino.png"
+                    Picture = "C:\\Users\\Rianne\\Desktop\\Radiant-Luxe-Kaffe\\Resources\\hot brewed coffee1.png"
                 },
                 new Coffee
                 {

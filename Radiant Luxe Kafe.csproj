@@ -221,5 +221,59 @@
   <ItemGroup>
     <None Include="Resources\bg menu.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blended caramel frappuccino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blended dark caramel coffee frappuccino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blended java chip frappuccino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blended strawberries &amp; cream frappuccino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blended triple mocha frappuccino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blended vanilla cream frappuccino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot brewed coffee1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot caffe misto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot espresso1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot flat white1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot signature hot chocolate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot white hot chocolate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced americano1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced caffe mocha1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced cappuccino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced caramel macchiato1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced green tea latte1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced white chocolate mocha1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
