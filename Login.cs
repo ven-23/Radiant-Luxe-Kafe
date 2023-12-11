@@ -46,7 +46,8 @@ namespace Radiant_Luxe_Kafe
 
             if (string.IsNullOrEmpty(enteredUsername) || string.IsNullOrEmpty(enteredPassword))
             {
-                MessageBox.Show("Please enter both username and password.", "Incomplete Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                var incompleteinfo = new mIncompleteInfo();
+                incompleteinfo.ShowDialog();
                 return;
             }
 
@@ -66,7 +67,8 @@ namespace Radiant_Luxe_Kafe
 
                     if (count > 0)
                     {
-                        MessageBox.Show("Login successful!");
+                        var loginsuccess = new mLoginSuccess();
+                        loginsuccess.ShowDialog();
                         Hide();
                         Main main = new Main(enteredUsername);
                         main.FormClosed += (s, args) => Close();
@@ -74,12 +76,14 @@ namespace Radiant_Luxe_Kafe
                     }
                     else
                     {
-                        MessageBox.Show("Invalid username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        var invalunp = new mInvalidUP();
+                        invalunp.ShowDialog();
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    var error = new mError();
+                    error.ShowDialog();
                 }
             }
         }

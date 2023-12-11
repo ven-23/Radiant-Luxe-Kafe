@@ -40,14 +40,16 @@ namespace Radiant_Luxe_Kafe
                 string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text) ||
                 string.IsNullOrEmpty(txtConPass.Text) || (!rbtnMale.Checked && !rbtnFemale.Checked))
             {
-                MessageBox.Show("Please provide complete information, including selecting a gender.", "Incomplete Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                var incompleteinfo = new mIncompleteInfo();
+                incompleteinfo.ShowDialog();
                 return;
             }
 
             // Check if Password and ConfirmPassword match
             if (txtPassword.Text != txtConPass.Text)
             {
-                MessageBox.Show("Password and Confirm Password do not match.", "Password Mismatch", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                var passmismatch = new mPassMismatch();
+                passmismatch.ShowDialog();
                 return;
             }
 
@@ -65,13 +67,13 @@ namespace Radiant_Luxe_Kafe
             {
                 conn.Open();
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("The record has been inserted!");
+                var recordinserted = new mRecordInserted();
+                recordinserted.ShowDialog();
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                error wrong = new error();
-                wrong.ShowDialog();
+                var error = new mError();
+                error.ShowDialog();
             }
             finally
             {

@@ -118,56 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="iced cappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced cappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="examplecoffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\examplecoffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m pass mismatch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m pass mismatch1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m not found in database" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m not found in database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hot espresso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot espresso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iced white chocolate mocha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iced white chocolate mocha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blended triple mocha frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended triple mocha frappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="blended caramel frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blended caramel frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blended vanilla cream frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended vanilla cream frappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blended java chip frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blended java chip frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\butter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hot brewed coffee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot brewed coffee1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m item added" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m item added.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="honey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m pass mismatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m pass mismatch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iced green tea latte1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iced green tea latte1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iced caffe mocha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iced caffe mocha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blended vanilla cream frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended vanilla cream frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot caffe misto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot caffe misto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg order panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg order panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="splash s" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\splash s.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m login success" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m login success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg home 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg home 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,68 +154,77 @@
   <data name="milk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\milk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg account" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg account.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced americano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg starting1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg starting1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot espresso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot espresso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg about" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m logout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m logout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blended dark caramel coffee frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended dark caramel coffee frappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="blended triple mocha frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blended triple mocha frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg register" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot brewed coffee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot brewed coffee1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blended java chip frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended java chip frappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot signature hot chocolate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot signature hot chocolate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced americano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced americano1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m loaded success" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m loaded success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced caramel macchiato1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced caramel macchiato1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot white hot chocolate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot white hot chocolate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blended dark caramel coffee frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blended dark caramel coffee frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hot white hot chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot white hot chocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="splash s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splash s.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hot signature hot chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot signature hot chocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg home 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg home 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hot espresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot espresso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hot signature hot chocolate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot signature hot chocolate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m record inserted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m record inserted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blended vanilla cream frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blended vanilla cream frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot caffe misto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot caffe misto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iced caramel macchiato1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iced caramel macchiato1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iced americano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iced americano1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg account" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg account.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iced cappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iced cappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg home 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg home 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg starting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg starting.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot white hot chocolate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot white hot chocolate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot flat white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot flat white1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blended strawberries &amp; cream frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blended strawberries &amp; cream frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg order panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg order panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg starting1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg starting1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\butter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m error" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,100 +232,28 @@
   <data name="m incomp info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m incomp info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iced green tea latte1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced green tea latte1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot flat white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot flat white1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced caffe mocha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced caffe mocha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced cappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced cappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg home 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg home 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m invalid u&amp;p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m invalid u&amp;p1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg starting" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg starting.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blended java chip frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended java chip frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced green tea latte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced green tea latte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced caramel macchiato" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced caramel macchiato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m item added1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m item added1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iced caffe mocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced caffe mocha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="honey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\honey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m loaded success1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m loaded success1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blended strawberries &amp; cream frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended strawberries &amp; cream frappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blended caramel frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended caramel frappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m record inserted1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m record inserted1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot brewed coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot brewed coffee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot flat white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot flat white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="m invalid u&amp;p" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m invalid u&amp;p.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m not found in database1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m not found in database1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m item added" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m item added.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m incomp info1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m incomp info1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m loaded success" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m loaded success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iced white chocolate mocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced white chocolate mocha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m login success" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m login success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hot caffe misto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot caffe misto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="examplecoffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\examplecoffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m not found in database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m not found in database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m login success1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m login success1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m pass mismatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m pass mismatch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blended strawberries &amp; cream frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blended strawberries &amp; cream frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m error1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m error1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg home 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg home 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m record inserted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m record inserted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

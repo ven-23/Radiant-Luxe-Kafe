@@ -193,29 +193,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blended_caramel_frappuccino {
-            get {
-                object obj = ResourceManager.GetObject("blended caramel frappuccino", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap blended_caramel_frappuccino1 {
             get {
                 object obj = ResourceManager.GetObject("blended caramel frappuccino1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap blended_dark_caramel_coffee_frappuccino {
-            get {
-                object obj = ResourceManager.GetObject("blended dark caramel coffee frappuccino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,29 +213,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blended_java_chip_frappuccino {
-            get {
-                object obj = ResourceManager.GetObject("blended java chip frappuccino", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap blended_java_chip_frappuccino1 {
             get {
                 object obj = ResourceManager.GetObject("blended java chip frappuccino1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap blended_strawberries___cream_frappuccino {
-            get {
-                object obj = ResourceManager.GetObject("blended strawberries & cream frappuccino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,29 +233,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blended_triple_mocha_frappuccino {
-            get {
-                object obj = ResourceManager.GetObject("blended triple mocha frappuccino", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap blended_triple_mocha_frappuccino1 {
             get {
                 object obj = ResourceManager.GetObject("blended triple mocha frappuccino1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap blended_vanilla_cream_frappuccino {
-            get {
-                object obj = ResourceManager.GetObject("blended vanilla cream frappuccino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,29 +283,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hot_brewed_coffee {
-            get {
-                object obj = ResourceManager.GetObject("hot brewed coffee", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap hot_brewed_coffee1 {
             get {
                 object obj = ResourceManager.GetObject("hot brewed coffee1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hot_caffe_misto {
-            get {
-                object obj = ResourceManager.GetObject("hot caffe misto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,29 +303,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hot_espresso {
-            get {
-                object obj = ResourceManager.GetObject("hot espresso", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap hot_espresso1 {
             get {
                 object obj = ResourceManager.GetObject("hot espresso1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hot_flat_white {
-            get {
-                object obj = ResourceManager.GetObject("hot flat white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,29 +323,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hot_signature_hot_chocolate {
-            get {
-                object obj = ResourceManager.GetObject("hot signature hot chocolate", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap hot_signature_hot_chocolate1 {
             get {
                 object obj = ResourceManager.GetObject("hot signature hot chocolate1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hot_white_hot_chocolate {
-            get {
-                object obj = ResourceManager.GetObject("hot white hot chocolate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,29 +343,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap iced_americano {
-            get {
-                object obj = ResourceManager.GetObject("iced americano", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap iced_americano1 {
             get {
                 object obj = ResourceManager.GetObject("iced americano1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap iced_caffe_mocha {
-            get {
-                object obj = ResourceManager.GetObject("iced caffe mocha", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,29 +363,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap iced_cappuccino {
-            get {
-                object obj = ResourceManager.GetObject("iced cappuccino", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap iced_cappuccino1 {
             get {
                 object obj = ResourceManager.GetObject("iced cappuccino1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap iced_caramel_macchiato {
-            get {
-                object obj = ResourceManager.GetObject("iced caramel macchiato", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,29 +383,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap iced_green_tea_latte {
-            get {
-                object obj = ResourceManager.GetObject("iced green tea latte", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap iced_green_tea_latte1 {
             get {
                 object obj = ResourceManager.GetObject("iced green tea latte1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap iced_white_chocolate_mocha {
-            get {
-                object obj = ResourceManager.GetObject("iced white chocolate mocha", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,29 +413,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap m_error1 {
-            get {
-                object obj = ResourceManager.GetObject("m error1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap m_incomp_info {
             get {
                 object obj = ResourceManager.GetObject("m incomp info", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap m_incomp_info1 {
-            get {
-                object obj = ResourceManager.GetObject("m incomp info1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,29 +433,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap m_invalid_u_p1 {
-            get {
-                object obj = ResourceManager.GetObject("m invalid u&p1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap m_item_added {
             get {
                 object obj = ResourceManager.GetObject("m item added", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap m_item_added1 {
-            get {
-                object obj = ResourceManager.GetObject("m item added1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,29 +453,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap m_loaded_success1 {
-            get {
-                object obj = ResourceManager.GetObject("m loaded success1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap m_login_success {
             get {
                 object obj = ResourceManager.GetObject("m login success", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap m_login_success1 {
-            get {
-                object obj = ResourceManager.GetObject("m login success1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,29 +473,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap m_logout1 {
-            get {
-                object obj = ResourceManager.GetObject("m logout1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap m_not_found_in_database {
             get {
                 object obj = ResourceManager.GetObject("m not found in database", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap m_not_found_in_database1 {
-            get {
-                object obj = ResourceManager.GetObject("m not found in database1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -753,29 +493,9 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap m_pass_mismatch1 {
-            get {
-                object obj = ResourceManager.GetObject("m pass mismatch1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap m_record_inserted {
             get {
                 object obj = ResourceManager.GetObject("m record inserted", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap m_record_inserted1 {
-            get {
-                object obj = ResourceManager.GetObject("m record inserted1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

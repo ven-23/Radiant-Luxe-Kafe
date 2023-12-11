@@ -90,11 +90,11 @@
             this.rtbDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbDescription.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rtbDescription.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbDescription.Location = new System.Drawing.Point(327, 181);
+            this.rtbDescription.Location = new System.Drawing.Point(327, 166);
             this.rtbDescription.Name = "rtbDescription";
             this.rtbDescription.ReadOnly = true;
             this.rtbDescription.ShortcutsEnabled = false;
-            this.rtbDescription.Size = new System.Drawing.Size(309, 64);
+            this.rtbDescription.Size = new System.Drawing.Size(320, 82);
             this.rtbDescription.TabIndex = 10;
             this.rtbDescription.TabStop = false;
             this.rtbDescription.Text = "";
@@ -126,9 +126,9 @@
             // 
             this.pbCoffee.BackColor = System.Drawing.Color.Transparent;
             this.pbCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbCoffee.Location = new System.Drawing.Point(25, 27);
+            this.pbCoffee.Location = new System.Drawing.Point(26, 47);
             this.pbCoffee.Name = "pbCoffee";
-            this.pbCoffee.Size = new System.Drawing.Size(235, 310);
+            this.pbCoffee.Size = new System.Drawing.Size(276, 291);
             this.pbCoffee.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCoffee.TabIndex = 7;
             this.pbCoffee.TabStop = false;

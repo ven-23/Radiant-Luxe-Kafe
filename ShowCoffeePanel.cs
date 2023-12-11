@@ -41,7 +41,8 @@ namespace Radiant_Luxe_Kafe
         private void btnAddtoCart_Click(object sender, EventArgs e)
         {
 
-            MessageBox.Show("Item added to cart!");
+            var itemadded = new mItemAdded();
+            itemadded.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)

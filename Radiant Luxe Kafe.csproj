@@ -113,17 +113,76 @@
       <DependentUpon>CartControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Coffee.cs" />
-    <Compile Include="error.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="error.Designer.cs">
-      <DependentUpon>error.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mError.Designer.cs">
+      <DependentUpon>mError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mIncompleteInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mIncompleteInfo.Designer.cs">
+      <DependentUpon>mIncompleteInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mInvalidUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mInvalidUP.Designer.cs">
+      <DependentUpon>mInvalidUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mItemAdded.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mItemAdded.Designer.cs">
+      <DependentUpon>mItemAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mLoadedSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mLoadedSuccess.Designer.cs">
+      <DependentUpon>mLoadedSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mLoginSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mLoginSuccess.Designer.cs">
+      <DependentUpon>mLoginSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mLogout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mLogout.Designer.cs">
+      <DependentUpon>mLogout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mNotFoundinDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mNotFoundinDatabase.Designer.cs">
+      <DependentUpon>mNotFoundinDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mPassMismatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mPassMismatch.Designer.cs">
+      <DependentUpon>mPassMismatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mRecordInserted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mRecordInserted.Designer.cs">
+      <DependentUpon>mRecordInserted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
@@ -154,14 +213,41 @@
     <EmbeddedResource Include="CartControl.resx">
       <DependentUpon>CartControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="error.resx">
-      <DependentUpon>error.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mError.resx">
+      <DependentUpon>mError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mIncompleteInfo.resx">
+      <DependentUpon>mIncompleteInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mInvalidUP.resx">
+      <DependentUpon>mInvalidUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mItemAdded.resx">
+      <DependentUpon>mItemAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mLoadedSuccess.resx">
+      <DependentUpon>mLoadedSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mLoginSuccess.resx">
+      <DependentUpon>mLoginSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mLogout.resx">
+      <DependentUpon>mLogout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mNotFoundinDatabase.resx">
+      <DependentUpon>mNotFoundinDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mPassMismatch.resx">
+      <DependentUpon>mPassMismatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mRecordInserted.resx">
+      <DependentUpon>mRecordInserted.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
@@ -174,14 +260,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -293,36 +374,6 @@
     <None Include="Resources\milk.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\m error1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m incomp info1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m invalid u&amp;p1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m item added1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m loaded success1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m login success1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m logout1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m not found in database1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m pass mismatch1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m record inserted1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\bg account.png" />
   </ItemGroup>
   <ItemGroup>
@@ -333,6 +384,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bg cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m incomp info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m invalid u&amp;p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m item added.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m loaded success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m login success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m not found in database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m pass mismatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m record inserted.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
