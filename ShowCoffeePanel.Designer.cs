@@ -49,7 +49,7 @@
             this.btnAddtoCart.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAddtoCart.ForeColor = System.Drawing.Color.White;
             this.btnAddtoCart.Location = new System.Drawing.Point(674, 372);
-            this.btnAddtoCart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddtoCart.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddtoCart.Name = "btnAddtoCart";
             this.btnAddtoCart.Size = new System.Drawing.Size(229, 55);
             this.btnAddtoCart.TabIndex = 13;
@@ -60,7 +60,7 @@
             // 
             this.btnSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSub.Location = new System.Drawing.Point(485, 387);
-            this.btnSub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSub.Margin = new System.Windows.Forms.Padding(4);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(51, 41);
             this.btnSub.TabIndex = 12;
@@ -72,7 +72,7 @@
             // 
             this.btnAdd.Font = new System.Drawing.Font("Lucida Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.Location = new System.Drawing.Point(426, 387);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(51, 41);
             this.btnAdd.TabIndex = 11;
@@ -86,7 +86,7 @@
             this.rtbDescription.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rtbDescription.Enabled = false;
             this.rtbDescription.Location = new System.Drawing.Point(402, 163);
-            this.rtbDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtbDescription.Margin = new System.Windows.Forms.Padding(4);
             this.rtbDescription.Name = "rtbDescription";
             this.rtbDescription.ReadOnly = true;
             this.rtbDescription.Size = new System.Drawing.Size(392, 148);

@@ -275,5 +275,14 @@
   <ItemGroup>
     <None Include="Resources\iced white chocolate mocha1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milk.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
