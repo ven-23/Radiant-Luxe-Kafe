@@ -107,7 +107,7 @@
             this.rbtnMale.Location = new System.Drawing.Point(210, 252);
             this.rbtnMale.Name = "rbtnMale";
             this.rbtnMale.Size = new System.Drawing.Size(55, 20);
-            this.rbtnMale.TabIndex = 9;
+            this.rbtnMale.TabIndex = 4;
             this.rbtnMale.Text = "Male";
             this.rbtnMale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.rbtnMale.UncheckedState.BorderThickness = 2;
@@ -128,7 +128,7 @@
             this.rbtnFemale.Location = new System.Drawing.Point(316, 252);
             this.rbtnFemale.Name = "rbtnFemale";
             this.rbtnFemale.Size = new System.Drawing.Size(71, 20);
-            this.rbtnFemale.TabIndex = 10;
+            this.rbtnFemale.TabIndex = 5;
             this.rbtnFemale.Text = "Female";
             this.rbtnFemale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.rbtnFemale.UncheckedState.BorderThickness = 2;
@@ -181,7 +181,7 @@
             this.cbShowPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbShowPass.Name = "cbShowPass";
             this.cbShowPass.Size = new System.Drawing.Size(124, 19);
-            this.cbShowPass.TabIndex = 53;
+            this.cbShowPass.TabIndex = 9;
             this.cbShowPass.Text = "Show Password";
             this.cbShowPass.UseVisualStyleBackColor = false;
             this.cbShowPass.CheckedChanged += new System.EventHandler(this.cbShowPass_CheckedChanged);
@@ -198,7 +198,7 @@
             this.btnRegister.Location = new System.Drawing.Point(183, 431);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(114, 34);
-            this.btnRegister.TabIndex = 54;
+            this.btnRegister.TabIndex = 10;
             this.btnRegister.Text = "Register";
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
@@ -210,7 +210,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(201, 25);
-            this.txtPassword.TabIndex = 57;
+            this.txtPassword.TabIndex = 7;
             // 
             // txtConPass
             // 
@@ -220,7 +220,7 @@
             this.txtConPass.Name = "txtConPass";
             this.txtConPass.PasswordChar = '*';
             this.txtConPass.Size = new System.Drawing.Size(202, 25);
-            this.txtConPass.TabIndex = 58;
+            this.txtConPass.TabIndex = 8;
             // 
             // txtUsername
             // 
@@ -229,7 +229,7 @@
             this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(202, 25);
-            this.txtUsername.TabIndex = 59;
+            this.txtUsername.TabIndex = 6;
             // 
             // txtPhoneNumber
             // 
@@ -238,7 +238,7 @@
             this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(202, 25);
-            this.txtPhoneNumber.TabIndex = 60;
+            this.txtPhoneNumber.TabIndex = 3;
             // 
             // txtAddress
             // 
@@ -247,7 +247,7 @@
             this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(202, 25);
-            this.txtAddress.TabIndex = 61;
+            this.txtAddress.TabIndex = 2;
             // 
             // txtFullname
             // 
@@ -256,7 +256,7 @@
             this.txtFullname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFullname.Name = "txtFullname";
             this.txtFullname.Size = new System.Drawing.Size(202, 25);
-            this.txtFullname.TabIndex = 62;
+            this.txtFullname.TabIndex = 1;
             // 
             // label8
             // 
@@ -278,7 +278,7 @@
             this.llblRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llblRegister.Name = "llblRegister";
             this.llblRegister.Size = new System.Drawing.Size(49, 15);
-            this.llblRegister.TabIndex = 63;
+            this.llblRegister.TabIndex = 11;
             this.llblRegister.TabStop = true;
             this.llblRegister.Text = "Sign in";
             this.llblRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llblRegister_LinkClicked);
