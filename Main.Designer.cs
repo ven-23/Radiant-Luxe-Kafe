@@ -1583,7 +1583,7 @@
             // 
             this.rtbReceipt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(238)))), ((int)(((byte)(221)))));
             this.rtbReceipt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.rtbReceipt.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbReceipt.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbReceipt.Location = new System.Drawing.Point(45, 90);
             this.rtbReceipt.Name = "rtbReceipt";
             this.rtbReceipt.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;

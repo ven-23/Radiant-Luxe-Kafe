@@ -20,6 +20,8 @@ namespace Radiant_Luxe_Kafe
         private List<Coffee> coffeeList;
         private List<Coffee> shoppingCart = new List<Coffee>();
 
+        private bool isCartDisplayed = false;
+
         private const string CONNECTION_STRING = "server=localhost;user id = root; password=; database=dbRLK;";
 
         public Main()
@@ -288,7 +290,15 @@ namespace Radiant_Luxe_Kafe
             decimal total = 0;
 
             // Append receipt header
-            rtbReceipt.AppendText($"\r\n•••••••••••OFFICIAL RECEIPT•••••••••••\r\n\r\n                    RadiantLuxe Kafé\r\n                MacArthur Hwy, Angeles, \r\n                       2009 Pampanga\r\n\r\n•••••••••••••••••••••••••••••••••••••\r\n                    December 12, 2023\r\n                           12:03 AM\r\n••••••••••••••••••••••••••••••••••••\r\nQty:        Item:                          Price:\r\n");
+            rtbReceipt.Clear();
+            rtbReceipt.AppendText("\r\n•••••••••••OFFICIAL RECEIPT•••••••••••\r\n");
+            rtbReceipt.AppendText("\t\tRadiantLuxe Kafé\t\r\n");
+            rtbReceipt.AppendText("\t       MacArthur Hwy, Angeles,\t\r\n");
+            rtbReceipt.AppendText("\t\t2009 Pampanga\r\n");
+            rtbReceipt.AppendText("\r\n••••••••••••••••••••••••••••••••••••••\r\n");
+            rtbReceipt.AppendText($"{DateTime.Now:MMMM dd, yyyy} \n{DateTime.Now:hh:mm tt}\r\n");
+            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••••••\r\n");
+            rtbReceipt.AppendText("Qty:\t    Item:                     \tPrice:\r\n");
 
             foreach (var coffee in shoppingCart)
             {
@@ -297,12 +307,13 @@ namespace Radiant_Luxe_Kafe
                 total += coffee.Price * coffee.Quantity;
 
                 // Append quantity, coffee name, and total price for each item in the cart
-                rtbReceipt.AppendText($"{coffee.Quantity}              {coffee.CoffeeName}           {coffee.Price:C}\r\n");
+                rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t{coffee.Price * coffee.Quantity:C}\r\n");
             }
 
             // Append tax and total
-            rtbReceipt.AppendText($"\r\nTax (X%):\r\n\r\nTOTAL:");
-    }
+            rtbReceipt.AppendText("\r\nTax (X%):                                 \r\n\r\n");
+            rtbReceipt.AppendText($"TOTAL:                                 {total.ToString("C")}\r\n•••••••••");
+        }
 
         private void RemoveCoffeeFromCart(Coffee coffee)
         {
@@ -538,7 +549,6 @@ namespace Radiant_Luxe_Kafe
             TabPane.SelectedTab = Cart;
             rtbReceipt.SelectAll();
             rtbReceipt.SelectionAlignment = HorizontalAlignment.Center;
-            rtbReceipt.Text += "";
             DisplayCart();
         }
 
