@@ -426,7 +426,6 @@ namespace Radiant_Luxe_Kafe
                             lblPhoneNumber.Text = phoneNumber;
                             lblGender.Text = gender;
                             lblUsername.Text = username;
-                            lblPassword.Text = password;
 
                             MessageBox.Show("User information loaded successfully!");
                         }
@@ -553,6 +552,152 @@ namespace Radiant_Luxe_Kafe
         private void Home_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void lblAddress_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Home;
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Menu;
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Cart;
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = About;
+        }
+
+        private void guna2Button14_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Cart;
+            DisplayCart();
+        }
+
+        private void guna2Button16_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Home;
+        }
+
+        private void guna2Button15_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Menu;
+        }
+
+        private void guna2Button13_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = About;
+        }
+
+        private void homeBtn(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Home;
+        }
+
+        private void menuBtn(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Menu;
+        }
+
+        private void cartBtn(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Cart;
+        }
+
+        private void About_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = About;
+        }
+
+        private void TabPane_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Cart_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rtbReceipt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CartPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGender_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPhoneNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblFullName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutBtn(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = About;
+        }
+
+        private void loginBtn(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Account;
+        }
+
+        private void exitBtn(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void minBtn(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
