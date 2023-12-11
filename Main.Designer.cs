@@ -29,16 +29,6 @@
         private void InitializeComponent()
         {
             this.TabPane = new Guna.UI2.WinForms.Guna2TabControl();
-            this.Home = new System.Windows.Forms.TabPage();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMin = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.Account = new System.Windows.Forms.TabPage();
             this.lblPassword = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -53,6 +43,23 @@
             this.lblFullName = new System.Windows.Forms.Label();
             this.lbl = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.Cart = new System.Windows.Forms.TabPage();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.rtbReceipt = new System.Windows.Forms.RichTextBox();
+            this.CartPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.About = new System.Windows.Forms.TabPage();
+            this.Home = new System.Windows.Forms.TabPage();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMin = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.Menu = new System.Windows.Forms.TabPage();
             this.aButter = new System.Windows.Forms.Label();
             this.aHoney = new System.Windows.Forms.Label();
@@ -77,18 +84,11 @@
             this.bCaramelFrappuccino = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.Cart = new System.Windows.Forms.TabPage();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.rtbReceipt = new System.Windows.Forms.RichTextBox();
-            this.CartPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.About = new System.Windows.Forms.TabPage();
             this.TabPane.SuspendLayout();
-            this.Home.SuspendLayout();
             this.Account.SuspendLayout();
-            this.Menu.SuspendLayout();
             this.Cart.SuspendLayout();
+            this.Home.SuspendLayout();
+            this.Menu.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabPane
@@ -125,6 +125,217 @@
             this.TabPane.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.TabPane.TabMenuVisible = false;
             // 
+            // Account
+            // 
+            this.Account.Controls.Add(this.lblPassword);
+            this.Account.Controls.Add(this.label13);
+            this.Account.Controls.Add(this.lblUsername);
+            this.Account.Controls.Add(this.label11);
+            this.Account.Controls.Add(this.lblGender);
+            this.Account.Controls.Add(this.label9);
+            this.Account.Controls.Add(this.lblPhoneNumber);
+            this.Account.Controls.Add(this.label8);
+            this.Account.Controls.Add(this.lblAddress);
+            this.Account.Controls.Add(this.label7);
+            this.Account.Controls.Add(this.lblFullName);
+            this.Account.Controls.Add(this.lbl);
+            this.Account.Controls.Add(this.button1);
+            this.Account.Location = new System.Drawing.Point(5, 4);
+            this.Account.Name = "Account";
+            this.Account.Padding = new System.Windows.Forms.Padding(3);
+            this.Account.Size = new System.Drawing.Size(975, 603);
+            this.Account.TabIndex = 1;
+            this.Account.Text = "Account";
+            this.Account.UseVisualStyleBackColor = true;
+            this.Account.Click += new System.EventHandler(this.Account_Click);
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Location = new System.Drawing.Point(141, 184);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(53, 13);
+            this.lblPassword.TabIndex = 15;
+            this.lblPassword.Text = "Password";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(83, 184);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(56, 13);
+            this.label13.TabIndex = 14;
+            this.label13.Text = "Password:";
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Location = new System.Drawing.Point(141, 155);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(55, 13);
+            this.lblUsername.TabIndex = 13;
+            this.lblUsername.Text = "Username";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(83, 155);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(58, 13);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "Username:";
+            // 
+            // lblGender
+            // 
+            this.lblGender.AutoSize = true;
+            this.lblGender.Location = new System.Drawing.Point(141, 128);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(42, 13);
+            this.lblGender.TabIndex = 11;
+            this.lblGender.Text = "Gender";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(83, 128);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(45, 13);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Gender:";
+            // 
+            // lblPhoneNumber
+            // 
+            this.lblPhoneNumber.AutoSize = true;
+            this.lblPhoneNumber.Location = new System.Drawing.Point(141, 103);
+            this.lblPhoneNumber.Name = "lblPhoneNumber";
+            this.lblPhoneNumber.Size = new System.Drawing.Size(78, 13);
+            this.lblPhoneNumber.TabIndex = 9;
+            this.lblPhoneNumber.Text = "Phone Number";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(50, 103);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(81, 13);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Phone Number:";
+            // 
+            // lblAddress
+            // 
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Location = new System.Drawing.Point(141, 77);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(45, 13);
+            this.lblAddress.TabIndex = 7;
+            this.lblAddress.Text = "Address";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(83, 77);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(48, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Address:";
+            // 
+            // lblFullName
+            // 
+            this.lblFullName.AutoSize = true;
+            this.lblFullName.Location = new System.Drawing.Point(141, 52);
+            this.lblFullName.Name = "lblFullName";
+            this.lblFullName.Size = new System.Drawing.Size(49, 13);
+            this.lblFullName.TabIndex = 5;
+            this.lblFullName.Text = "Fullname";
+            // 
+            // lbl
+            // 
+            this.lbl.AutoSize = true;
+            this.lbl.Location = new System.Drawing.Point(83, 52);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(52, 13);
+            this.lbl.TabIndex = 4;
+            this.lbl.Text = "Fullname:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(883, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Cart
+            // 
+            this.Cart.Controls.Add(this.btnClear);
+            this.Cart.Controls.Add(this.button5);
+            this.Cart.Controls.Add(this.button4);
+            this.Cart.Controls.Add(this.rtbReceipt);
+            this.Cart.Controls.Add(this.CartPanel);
+            this.Cart.Location = new System.Drawing.Point(5, 4);
+            this.Cart.Name = "Cart";
+            this.Cart.Size = new System.Drawing.Size(975, 603);
+            this.Cart.TabIndex = 3;
+            this.Cart.Text = "Cart";
+            this.Cart.UseVisualStyleBackColor = true;
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(444, 554);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 11;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(430, 18);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "cart";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(856, 30);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "exit";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // rtbReceipt
+            // 
+            this.rtbReceipt.Location = new System.Drawing.Point(574, 70);
+            this.rtbReceipt.Name = "rtbReceipt";
+            this.rtbReceipt.Size = new System.Drawing.Size(349, 470);
+            this.rtbReceipt.TabIndex = 1;
+            this.rtbReceipt.Text = "";
+            // 
+            // CartPanel
+            // 
+            this.CartPanel.Location = new System.Drawing.Point(73, 70);
+            this.CartPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.CartPanel.Name = "CartPanel";
+            this.CartPanel.Size = new System.Drawing.Size(446, 470);
+            this.CartPanel.TabIndex = 0;
+            // 
+            // About
+            // 
+            this.About.Location = new System.Drawing.Point(5, 4);
+            this.About.Name = "About";
+            this.About.Size = new System.Drawing.Size(975, 603);
+            this.About.TabIndex = 4;
+            this.About.Text = "About";
+            this.About.UseVisualStyleBackColor = true;
+            // 
             // Home
             // 
             this.Home.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_home_4;
@@ -140,7 +351,7 @@
             this.Home.Controls.Add(this.btnMenu);
             this.Home.Location = new System.Drawing.Point(5, 4);
             this.Home.Name = "Home";
-            this.Home.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Home.Padding = new System.Windows.Forms.Padding(3);
             this.Home.Size = new System.Drawing.Size(975, 603);
             this.Home.TabIndex = 0;
             this.Home.Text = "Home";
@@ -398,150 +609,10 @@
             this.btnMenu.UseTransparentBackground = true;
             this.btnMenu.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // Account
-            // 
-            this.Account.Controls.Add(this.lblPassword);
-            this.Account.Controls.Add(this.label13);
-            this.Account.Controls.Add(this.lblUsername);
-            this.Account.Controls.Add(this.label11);
-            this.Account.Controls.Add(this.lblGender);
-            this.Account.Controls.Add(this.label9);
-            this.Account.Controls.Add(this.lblPhoneNumber);
-            this.Account.Controls.Add(this.label8);
-            this.Account.Controls.Add(this.lblAddress);
-            this.Account.Controls.Add(this.label7);
-            this.Account.Controls.Add(this.lblFullName);
-            this.Account.Controls.Add(this.lbl);
-            this.Account.Controls.Add(this.button1);
-            this.Account.Location = new System.Drawing.Point(5, 4);
-            this.Account.Name = "Account";
-            this.Account.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Account.Size = new System.Drawing.Size(975, 603);
-            this.Account.TabIndex = 1;
-            this.Account.Text = "Account";
-            this.Account.UseVisualStyleBackColor = true;
-            this.Account.Click += new System.EventHandler(this.Account_Click);
-            // 
-            // lblPassword
-            // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(141, 184);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(53, 13);
-            this.lblPassword.TabIndex = 15;
-            this.lblPassword.Text = "Password";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(83, 184);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(56, 13);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "Password:";
-            // 
-            // lblUsername
-            // 
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.Location = new System.Drawing.Point(141, 155);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(55, 13);
-            this.lblUsername.TabIndex = 13;
-            this.lblUsername.Text = "Username";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(83, 155);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(58, 13);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "Username:";
-            // 
-            // lblGender
-            // 
-            this.lblGender.AutoSize = true;
-            this.lblGender.Location = new System.Drawing.Point(141, 128);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(42, 13);
-            this.lblGender.TabIndex = 11;
-            this.lblGender.Text = "Gender";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(83, 128);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(45, 13);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Gender:";
-            // 
-            // lblPhoneNumber
-            // 
-            this.lblPhoneNumber.AutoSize = true;
-            this.lblPhoneNumber.Location = new System.Drawing.Point(141, 103);
-            this.lblPhoneNumber.Name = "lblPhoneNumber";
-            this.lblPhoneNumber.Size = new System.Drawing.Size(78, 13);
-            this.lblPhoneNumber.TabIndex = 9;
-            this.lblPhoneNumber.Text = "Phone Number";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(50, 103);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 13);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Phone Number:";
-            // 
-            // lblAddress
-            // 
-            this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(141, 77);
-            this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(45, 13);
-            this.lblAddress.TabIndex = 7;
-            this.lblAddress.Text = "Address";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(83, 77);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Address:";
-            // 
-            // lblFullName
-            // 
-            this.lblFullName.AutoSize = true;
-            this.lblFullName.Location = new System.Drawing.Point(141, 52);
-            this.lblFullName.Name = "lblFullName";
-            this.lblFullName.Size = new System.Drawing.Size(49, 13);
-            this.lblFullName.TabIndex = 5;
-            this.lblFullName.Text = "Fullname";
-            // 
-            // lbl
-            // 
-            this.lbl.AutoSize = true;
-            this.lbl.Location = new System.Drawing.Point(83, 52);
-            this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(52, 13);
-            this.lbl.TabIndex = 4;
-            this.lbl.Text = "Fullname:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(883, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "exit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Menu
             // 
+            this.Menu.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_menu;
+            this.Menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Menu.Controls.Add(this.aButter);
             this.Menu.Controls.Add(this.aHoney);
             this.Menu.Controls.Add(this.aMilk);
@@ -805,7 +876,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(458, 25);
+            this.button3.Location = new System.Drawing.Point(438, 39);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 9;
@@ -816,82 +887,13 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(898, 25);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(56, 19);
             this.button2.TabIndex = 8;
             this.button2.Text = "temp exit";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // Cart
-            // 
-            this.Cart.Controls.Add(this.btnClear);
-            this.Cart.Controls.Add(this.button5);
-            this.Cart.Controls.Add(this.button4);
-            this.Cart.Controls.Add(this.rtbReceipt);
-            this.Cart.Controls.Add(this.CartPanel);
-            this.Cart.Location = new System.Drawing.Point(5, 4);
-            this.Cart.Name = "Cart";
-            this.Cart.Size = new System.Drawing.Size(975, 603);
-            this.Cart.TabIndex = 3;
-            this.Cart.Text = "Cart";
-            this.Cart.UseVisualStyleBackColor = true;
-            // 
-            // btnClear
-            // 
-            this.btnClear.Location = new System.Drawing.Point(444, 554);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 23);
-            this.btnClear.TabIndex = 11;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(430, 18);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "cart";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(856, 30);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "exit";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // rtbReceipt
-            // 
-            this.rtbReceipt.Location = new System.Drawing.Point(574, 70);
-            this.rtbReceipt.Name = "rtbReceipt";
-            this.rtbReceipt.Size = new System.Drawing.Size(349, 470);
-            this.rtbReceipt.TabIndex = 1;
-            this.rtbReceipt.Text = "";
-            // 
-            // CartPanel
-            // 
-            this.CartPanel.Location = new System.Drawing.Point(73, 70);
-            this.CartPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.CartPanel.Name = "CartPanel";
-            this.CartPanel.Size = new System.Drawing.Size(446, 470);
-            this.CartPanel.TabIndex = 0;
-            // 
-            // About
-            // 
-            this.About.Location = new System.Drawing.Point(5, 4);
-            this.About.Name = "About";
-            this.About.Size = new System.Drawing.Size(975, 603);
-            this.About.TabIndex = 4;
-            this.About.Text = "About";
-            this.About.UseVisualStyleBackColor = true;
             // 
             // Main
             // 
@@ -905,12 +907,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.TabPane.ResumeLayout(false);
-            this.Home.ResumeLayout(false);
             this.Account.ResumeLayout(false);
             this.Account.PerformLayout();
+            this.Cart.ResumeLayout(false);
+            this.Home.ResumeLayout(false);
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
-            this.Cart.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

@@ -113,6 +113,16 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg_menu {
+            get {
+                object obj = ResourceManager.GetObject("bg menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg_register {
             get {
                 object obj = ResourceManager.GetObject("bg register", resourceCulture);
