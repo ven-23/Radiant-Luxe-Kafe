@@ -281,6 +281,7 @@
             this.llblRegister.TabIndex = 63;
             this.llblRegister.TabStop = true;
             this.llblRegister.Text = "Sign in";
+            this.llblRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llblRegister_LinkClicked);
             // 
             // btnGoHome
             // 
@@ -308,6 +309,7 @@
             this.btnGoHome.Size = new System.Drawing.Size(42, 35);
             this.btnGoHome.TabIndex = 65;
             this.btnGoHome.UseTransparentBackground = true;
+            this.btnGoHome.Click += new System.EventHandler(this.btnGoHome_Click);
             // 
             // Register
             // 

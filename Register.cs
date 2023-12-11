@@ -82,5 +82,19 @@ namespace Radiant_Luxe_Kafe
             //loginForm.FormClosed += (s, args) => Close();
             loginForm.ShowDialog();
         }
+
+        private void btnGoHome_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
+        }
+
+        private void llblRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }
