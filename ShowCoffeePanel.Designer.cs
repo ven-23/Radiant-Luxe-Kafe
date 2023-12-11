@@ -37,6 +37,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.lblQty = new System.Windows.Forms.Label();
             this.pbCoffee = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbCoffee)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,10 +49,9 @@
             this.btnAddtoCart.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAddtoCart.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAddtoCart.ForeColor = System.Drawing.Color.White;
-            this.btnAddtoCart.Location = new System.Drawing.Point(674, 372);
-            this.btnAddtoCart.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddtoCart.Location = new System.Drawing.Point(506, 302);
             this.btnAddtoCart.Name = "btnAddtoCart";
-            this.btnAddtoCart.Size = new System.Drawing.Size(229, 55);
+            this.btnAddtoCart.Size = new System.Drawing.Size(172, 45);
             this.btnAddtoCart.TabIndex = 13;
             this.btnAddtoCart.Text = "Add to Cart";
             this.btnAddtoCart.Click += new System.EventHandler(this.btnAddtoCart_Click);
@@ -59,10 +59,9 @@
             // btnSub
             // 
             this.btnSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSub.Location = new System.Drawing.Point(485, 387);
-            this.btnSub.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSub.Location = new System.Drawing.Point(364, 314);
             this.btnSub.Name = "btnSub";
-            this.btnSub.Size = new System.Drawing.Size(51, 41);
+            this.btnSub.Size = new System.Drawing.Size(38, 33);
             this.btnSub.TabIndex = 12;
             this.btnSub.Text = "-";
             this.btnSub.UseVisualStyleBackColor = true;
@@ -71,10 +70,9 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Lucida Sans", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(426, 387);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAdd.Location = new System.Drawing.Point(320, 314);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(51, 41);
+            this.btnAdd.Size = new System.Drawing.Size(38, 33);
             this.btnAdd.TabIndex = 11;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -85,11 +83,10 @@
             this.rtbDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbDescription.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rtbDescription.Enabled = false;
-            this.rtbDescription.Location = new System.Drawing.Point(402, 163);
-            this.rtbDescription.Margin = new System.Windows.Forms.Padding(4);
+            this.rtbDescription.Location = new System.Drawing.Point(302, 132);
             this.rtbDescription.Name = "rtbDescription";
             this.rtbDescription.ReadOnly = true;
-            this.rtbDescription.Size = new System.Drawing.Size(392, 148);
+            this.rtbDescription.Size = new System.Drawing.Size(294, 120);
             this.rtbDescription.TabIndex = 10;
             this.rtbDescription.Text = "safasfasfasfsaf  asfasfaf\n";
             this.rtbDescription.TextChanged += new System.EventHandler(this.rtbDescription_TextChanged);
@@ -98,10 +95,9 @@
             // 
             this.lblPrice.AutoSize = true;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrice.Location = new System.Drawing.Point(415, 123);
-            this.lblPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrice.Location = new System.Drawing.Point(311, 100);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(48, 20);
+            this.lblPrice.Size = new System.Drawing.Size(38, 16);
             this.lblPrice.TabIndex = 9;
             this.lblPrice.Text = "Price";
             // 
@@ -109,19 +105,18 @@
             // 
             this.lblCoffeeName.AutoSize = true;
             this.lblCoffeeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCoffeeName.Location = new System.Drawing.Point(397, 91);
-            this.lblCoffeeName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCoffeeName.Location = new System.Drawing.Point(298, 74);
             this.lblCoffeeName.Name = "lblCoffeeName";
-            this.lblCoffeeName.Size = new System.Drawing.Size(127, 25);
+            this.lblCoffeeName.Size = new System.Drawing.Size(103, 20);
             this.lblCoffeeName.TabIndex = 8;
             this.lblCoffeeName.Text = "Coffee Name";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(759, 21);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(569, 17);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(56, 19);
             this.button2.TabIndex = 14;
             this.button2.Text = "temp exit";
             this.button2.UseVisualStyleBackColor = true;
@@ -131,28 +126,36 @@
             // 
             this.lblQty.AutoSize = true;
             this.lblQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty.Location = new System.Drawing.Point(422, 341);
-            this.lblQty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQty.Location = new System.Drawing.Point(316, 277);
             this.lblQty.Name = "lblQty";
-            this.lblQty.Size = new System.Drawing.Size(35, 20);
+            this.lblQty.Size = new System.Drawing.Size(27, 16);
             this.lblQty.TabIndex = 15;
             this.lblQty.Text = "Qty";
             // 
             // pbCoffee
             // 
-            this.pbCoffee.Location = new System.Drawing.Point(46, 91);
-            this.pbCoffee.Margin = new System.Windows.Forms.Padding(4);
+            this.pbCoffee.Location = new System.Drawing.Point(34, 74);
             this.pbCoffee.Name = "pbCoffee";
-            this.pbCoffee.Size = new System.Drawing.Size(317, 300);
+            this.pbCoffee.Size = new System.Drawing.Size(238, 244);
             this.pbCoffee.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCoffee.TabIndex = 7;
             this.pbCoffee.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(469, 132);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "label1";
+            // 
             // ShowCoffeePanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(950, 500);
+            this.ClientSize = new System.Drawing.Size(712, 406);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblQty);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnAddtoCart);
@@ -163,7 +166,7 @@
             this.Controls.Add(this.lblCoffeeName);
             this.Controls.Add(this.pbCoffee);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ShowCoffeePanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ShowCoffeePanel";
@@ -185,5 +188,6 @@
         private System.Windows.Forms.PictureBox pbCoffee;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lblQty;
+        private System.Windows.Forms.Label label1;
     }
 }
