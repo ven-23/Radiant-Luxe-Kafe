@@ -37,7 +37,7 @@ namespace Radiant_Luxe_Kafe
                     CoffeeName = "Cappuccino",
                     Description = "Coffee 1 Desc",
                     Price = 100,
-                    Picture = "C:\\Users\\Rianne\\Desktop\\Coffee"
+                    Picture = "C:\\BUTIAL_RAVEN\\Radiant-Luxe-Kafe\\Resources\\coffees\\blended caramel frappuccino.png"
                 },
                 new Coffee
                 {
@@ -273,6 +273,7 @@ namespace Radiant_Luxe_Kafe
         private void hBrewedCoffee_Click(object sender, EventArgs e)
         {
             ShowCoffeeDetails(0);
+
         }
     }
 }
