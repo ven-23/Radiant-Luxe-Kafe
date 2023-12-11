@@ -328,5 +328,11 @@
   <ItemGroup>
     <None Include="Resources\bg about.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg order panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg cart.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

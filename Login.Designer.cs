@@ -44,7 +44,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label1.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(350, 157);
+            this.label1.Location = new System.Drawing.Point(403, 206);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 17);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label2.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
-            this.label2.Location = new System.Drawing.Point(351, 225);
+            this.label2.Location = new System.Drawing.Point(404, 278);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 17);
             this.label2.TabIndex = 2;
@@ -69,7 +69,7 @@
             this.cbShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbShowPass.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbShowPass.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.cbShowPass.Location = new System.Drawing.Point(478, 279);
+            this.cbShowPass.Location = new System.Drawing.Point(531, 339);
             this.cbShowPass.Margin = new System.Windows.Forms.Padding(4);
             this.cbShowPass.Name = "cbShowPass";
             this.cbShowPass.Size = new System.Drawing.Size(124, 19);
@@ -87,7 +87,7 @@
             this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(92)))), ((int)(((byte)(31)))));
             this.btnLogin.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(429, 318);
+            this.btnLogin.Location = new System.Drawing.Point(482, 379);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(99, 29);
             this.btnLogin.TabIndex = 4;
@@ -99,7 +99,7 @@
             this.llblRegister.AutoSize = true;
             this.llblRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.llblRegister.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llblRegister.Location = new System.Drawing.Point(535, 366);
+            this.llblRegister.Location = new System.Drawing.Point(588, 438);
             this.llblRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llblRegister.Name = "llblRegister";
             this.llblRegister.Size = new System.Drawing.Size(60, 15);
@@ -113,7 +113,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label3.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(355, 366);
+            this.label3.Location = new System.Drawing.Point(408, 438);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(181, 15);
             this.label3.TabIndex = 55;
@@ -123,7 +123,7 @@
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(353, 247);
+            this.txtPassword.Location = new System.Drawing.Point(406, 306);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
@@ -134,7 +134,7 @@
             // 
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUsername.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(353, 179);
+            this.txtUsername.Location = new System.Drawing.Point(406, 234);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(246, 29);
@@ -174,7 +174,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_login;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(867, 481);
+            this.ClientSize = new System.Drawing.Size(966, 593);
             this.Controls.Add(this.btnGoHome);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.txtPassword);

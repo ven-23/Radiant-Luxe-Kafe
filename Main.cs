@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using Radiant_Luxe_Kafe.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -45,7 +46,7 @@ namespace Radiant_Luxe_Kafe
                     CoffeeName = "Hot Brewed Coffee",
                     Description = "Swing by and warm up while enjoying any of our three roasts brewed daily.",
                     Price = 100,
-                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\hot brewed coffee1.png"
+                    Picture = "C:\\BUTIAL_RAVEN\\Radiant-Luxe-Kafe\\Resources\\hot brewed coffee1.png"
                 },
                 new Coffee
                 {
@@ -691,9 +692,6 @@ namespace Radiant_Luxe_Kafe
 
         private void loginBtn(object sender, EventArgs e)
         {
-            TabPane.SelectedTab = Account;
-            error wrong = new error();
-            wrong.ShowDialog();
         }
 
         private void exitBtn(object sender, EventArgs e)
@@ -702,6 +700,27 @@ namespace Radiant_Luxe_Kafe
         }
 
         private void minBtn(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void accBtn(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Account;
+        }
+
+        private void guna2Button27_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void guna2Button37_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2Button38_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }

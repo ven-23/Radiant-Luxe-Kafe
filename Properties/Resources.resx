@@ -154,6 +154,12 @@
   <data name="blended vanilla cream frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blended vanilla cream frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hot caffe misto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot caffe misto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg order panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg order panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,6 +187,9 @@
   <data name="hot espresso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hot espresso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="m logout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m logout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,8 +208,11 @@
   <data name="blended java chip frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blended java chip frappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hot caffe misto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot caffe misto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hot signature hot chocolate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot signature hot chocolate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iced americano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iced americano1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m loaded success" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m loaded success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,9 +232,6 @@
   <data name="hot signature hot chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hot signature hot chocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hot espresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hot espresso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -231,9 +240,6 @@
   </data>
   <data name="m error" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot signature hot chocolate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot signature hot chocolate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m incomp info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m incomp info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,8 +265,8 @@
   <data name="bg starting" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg starting.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iced americano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced americano1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blended java chip frappuccino1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blended java chip frappuccino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,7 +337,7 @@
   <data name="bg home 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg home 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg about" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

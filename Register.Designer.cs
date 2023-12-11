@@ -55,7 +55,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label1.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(62, 135);
+            this.label1.Location = new System.Drawing.Point(88, 149);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 17);
             this.label1.TabIndex = 2;
@@ -66,7 +66,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label2.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 174);
+            this.label2.Location = new System.Drawing.Point(88, 188);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 4;
@@ -77,7 +77,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label3.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(62, 213);
+            this.label3.Location = new System.Drawing.Point(88, 227);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 17);
             this.label3.TabIndex = 6;
@@ -88,7 +88,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label4.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(62, 252);
+            this.label4.Location = new System.Drawing.Point(88, 266);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 17);
             this.label4.TabIndex = 8;
@@ -104,7 +104,7 @@
             this.rbtnMale.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rbtnMale.CheckedState.InnerOffset = -4;
             this.rbtnMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnMale.Location = new System.Drawing.Point(210, 252);
+            this.rbtnMale.Location = new System.Drawing.Point(236, 266);
             this.rbtnMale.Name = "rbtnMale";
             this.rbtnMale.Size = new System.Drawing.Size(55, 20);
             this.rbtnMale.TabIndex = 4;
@@ -125,7 +125,7 @@
             this.rbtnFemale.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rbtnFemale.CheckedState.InnerOffset = -4;
             this.rbtnFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnFemale.Location = new System.Drawing.Point(316, 252);
+            this.rbtnFemale.Location = new System.Drawing.Point(342, 266);
             this.rbtnFemale.Name = "rbtnFemale";
             this.rbtnFemale.Size = new System.Drawing.Size(71, 20);
             this.rbtnFemale.TabIndex = 5;
@@ -141,7 +141,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label5.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(62, 293);
+            this.label5.Location = new System.Drawing.Point(88, 307);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 17);
             this.label5.TabIndex = 11;
@@ -152,7 +152,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label6.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(62, 336);
+            this.label6.Location = new System.Drawing.Point(88, 350);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 17);
             this.label6.TabIndex = 13;
@@ -163,7 +163,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label7.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(62, 377);
+            this.label7.Location = new System.Drawing.Point(88, 391);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(140, 17);
             this.label7.TabIndex = 15;
@@ -177,8 +177,8 @@
             this.cbShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbShowPass.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbShowPass.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.cbShowPass.Location = new System.Drawing.Point(288, 403);
-            this.cbShowPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbShowPass.Location = new System.Drawing.Point(314, 417);
+            this.cbShowPass.Margin = new System.Windows.Forms.Padding(4);
             this.cbShowPass.Name = "cbShowPass";
             this.cbShowPass.Size = new System.Drawing.Size(124, 19);
             this.cbShowPass.TabIndex = 9;
@@ -195,7 +195,7 @@
             this.btnRegister.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(92)))), ((int)(((byte)(31)))));
             this.btnRegister.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
             this.btnRegister.ForeColor = System.Drawing.Color.White;
-            this.btnRegister.Location = new System.Drawing.Point(183, 431);
+            this.btnRegister.Location = new System.Drawing.Point(209, 445);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(114, 34);
             this.btnRegister.TabIndex = 10;
@@ -205,8 +205,8 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
-            this.txtPassword.Location = new System.Drawing.Point(208, 330);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPassword.Location = new System.Drawing.Point(234, 344);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(201, 25);
@@ -215,8 +215,8 @@
             // txtConPass
             // 
             this.txtConPass.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
-            this.txtConPass.Location = new System.Drawing.Point(207, 371);
-            this.txtConPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtConPass.Location = new System.Drawing.Point(233, 385);
+            this.txtConPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtConPass.Name = "txtConPass";
             this.txtConPass.PasswordChar = '*';
             this.txtConPass.Size = new System.Drawing.Size(202, 25);
@@ -225,8 +225,8 @@
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
-            this.txtUsername.Location = new System.Drawing.Point(207, 287);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsername.Location = new System.Drawing.Point(233, 301);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(202, 25);
             this.txtUsername.TabIndex = 6;
@@ -234,8 +234,8 @@
             // txtPhoneNumber
             // 
             this.txtPhoneNumber.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
-            this.txtPhoneNumber.Location = new System.Drawing.Point(207, 213);
-            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(233, 227);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(202, 25);
             this.txtPhoneNumber.TabIndex = 3;
@@ -243,8 +243,8 @@
             // txtAddress
             // 
             this.txtAddress.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
-            this.txtAddress.Location = new System.Drawing.Point(207, 174);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAddress.Location = new System.Drawing.Point(233, 188);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(2);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(202, 25);
             this.txtAddress.TabIndex = 2;
@@ -252,8 +252,8 @@
             // txtFullname
             // 
             this.txtFullname.Font = new System.Drawing.Font("Lucida Sans", 11.25F);
-            this.txtFullname.Location = new System.Drawing.Point(207, 129);
-            this.txtFullname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtFullname.Location = new System.Drawing.Point(233, 143);
+            this.txtFullname.Margin = new System.Windows.Forms.Padding(2);
             this.txtFullname.Name = "txtFullname";
             this.txtFullname.Size = new System.Drawing.Size(202, 25);
             this.txtFullname.TabIndex = 1;
@@ -263,7 +263,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.label8.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(127, 477);
+            this.label8.Location = new System.Drawing.Point(153, 491);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(170, 15);
             this.label8.TabIndex = 64;
@@ -274,7 +274,7 @@
             this.llblRegister.AutoSize = true;
             this.llblRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(224)))));
             this.llblRegister.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llblRegister.Location = new System.Drawing.Point(297, 477);
+            this.llblRegister.Location = new System.Drawing.Point(323, 491);
             this.llblRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llblRegister.Name = "llblRegister";
             this.llblRegister.Size = new System.Drawing.Size(49, 15);
@@ -317,7 +317,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_register;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(867, 566);
+            this.ClientSize = new System.Drawing.Size(966, 593);
             this.Controls.Add(this.btnGoHome);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.llblRegister);
