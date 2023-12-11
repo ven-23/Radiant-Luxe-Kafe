@@ -1,7 +1,9 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,8 @@ namespace Radiant_Luxe_Kafe
     {
         private List<Coffee> coffeeList;
         private List<Coffee> shoppingCart = new List<Coffee>();
+
+        private const string CONNECTION_STRING = "server=localhost;user id = root; password=; database=dbRLK;";
 
         public Main()
         {
@@ -218,5 +222,23 @@ namespace Radiant_Luxe_Kafe
             Login login = new Login();
             login.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Account;
+            
+        }
+
+        
+        private void Account_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
