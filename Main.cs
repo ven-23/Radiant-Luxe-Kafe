@@ -240,5 +240,29 @@ namespace Radiant_Luxe_Kafe
 
         }
 
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Home;
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Menu;
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Cart;
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = About;
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            TabPane.SelectedTab = Account;
+        }
     }
 }

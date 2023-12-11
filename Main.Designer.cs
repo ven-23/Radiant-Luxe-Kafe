@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             this.TabPane = new Guna.UI2.WinForms.Guna2TabControl();
-            this.Home = new System.Windows.Forms.TabPage();
-            this.button6 = new System.Windows.Forms.Button();
-            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMin = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.Account = new System.Windows.Forms.TabPage();
             this.lblPassword = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -50,7 +44,6 @@
             this.lbl = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.Menu = new System.Windows.Forms.TabPage();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -61,11 +54,6 @@
             this.lblCoffee2 = new System.Windows.Forms.Label();
             this.lblCoffee1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Cart = new System.Windows.Forms.TabPage();
             this.btnClear = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -73,17 +61,33 @@
             this.rtbReceipt = new System.Windows.Forms.RichTextBox();
             this.CartPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.About = new System.Windows.Forms.TabPage();
+            this.Home = new System.Windows.Forms.TabPage();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMin = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.TabPane.SuspendLayout();
-            this.Home.SuspendLayout();
             this.Account.SuspendLayout();
             this.Menu.SuspendLayout();
+            this.Cart.SuspendLayout();
+            this.Home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.Cart.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabPane
@@ -119,145 +123,6 @@
             this.TabPane.TabIndex = 0;
             this.TabPane.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.TabPane.TabMenuVisible = false;
-            // 
-            // Home
-            // 
-            this.Home.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_home_3;
-            this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Home.Controls.Add(this.button6);
-            this.Home.Controls.Add(this.btnLogin);
-            this.Home.Controls.Add(this.btnExit);
-            this.Home.Controls.Add(this.btnMin);
-            this.Home.Controls.Add(this.btnMenu);
-            this.Home.Location = new System.Drawing.Point(5, 4);
-            this.Home.Name = "Home";
-            this.Home.Padding = new System.Windows.Forms.Padding(3);
-            this.Home.Size = new System.Drawing.Size(975, 603);
-            this.Home.TabIndex = 0;
-            this.Home.Text = "Home";
-            this.Home.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(870, 81);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Account";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogin.BorderColor = System.Drawing.Color.Transparent;
-            this.btnLogin.Checked = true;
-            this.btnLogin.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnLogin.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnLogin.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.btnLogin.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogin.FillColor = System.Drawing.Color.Transparent;
-            this.btnLogin.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnLogin.ForeColor = System.Drawing.Color.Transparent;
-            this.btnLogin.Location = new System.Drawing.Point(935, 41);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.PressedColor = System.Drawing.Color.Transparent;
-            this.btnLogin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnLogin.Size = new System.Drawing.Size(10, 12);
-            this.btnLogin.TabIndex = 7;
-            this.btnLogin.UseTransparentBackground = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.BackColor = System.Drawing.Color.Transparent;
-            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
-            this.btnExit.Checked = true;
-            this.btnExit.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnExit.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnExit.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.btnExit.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExit.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExit.FillColor = System.Drawing.Color.Transparent;
-            this.btnExit.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
-            this.btnExit.Location = new System.Drawing.Point(957, 5);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.PressedColor = System.Drawing.Color.Transparent;
-            this.btnExit.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnExit.Size = new System.Drawing.Size(15, 10);
-            this.btnExit.TabIndex = 6;
-            this.btnExit.UseTransparentBackground = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnMin
-            // 
-            this.btnMin.BackColor = System.Drawing.Color.Transparent;
-            this.btnMin.BorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.Checked = true;
-            this.btnMin.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.btnMin.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMin.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnMin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMin.FillColor = System.Drawing.Color.Transparent;
-            this.btnMin.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnMin.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMin.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMin.Location = new System.Drawing.Point(940, 6);
-            this.btnMin.Name = "btnMin";
-            this.btnMin.PressedColor = System.Drawing.Color.Transparent;
-            this.btnMin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnMin.Size = new System.Drawing.Size(12, 10);
-            this.btnMin.TabIndex = 5;
-            this.btnMin.UseTransparentBackground = true;
-            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
-            // 
-            // btnMenu
-            // 
-            this.btnMenu.BackColor = System.Drawing.Color.Transparent;
-            this.btnMenu.BorderColor = System.Drawing.Color.Transparent;
-            this.btnMenu.Checked = true;
-            this.btnMenu.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnMenu.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnMenu.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.btnMenu.CheckedState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMenu.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnMenu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMenu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMenu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMenu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMenu.FillColor = System.Drawing.Color.Transparent;
-            this.btnMenu.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMenu.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMenu.Location = new System.Drawing.Point(444, 387);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.PressedColor = System.Drawing.Color.Transparent;
-            this.btnMenu.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnMenu.Size = new System.Drawing.Size(157, 33);
-            this.btnMenu.TabIndex = 3;
-            this.btnMenu.UseTransparentBackground = true;
-            this.btnMenu.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // Account
             // 
@@ -427,16 +292,6 @@
             this.Menu.UseVisualStyleBackColor = true;
             this.Menu.Click += new System.EventHandler(this.Menu_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
-            this.pictureBox4.Location = new System.Drawing.Point(603, 314);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 15;
-            this.pictureBox4.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -533,59 +388,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Hot Coffee";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
-            this.pictureBox5.Location = new System.Drawing.Point(346, 314);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 13;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
-            this.pictureBox6.Location = new System.Drawing.Point(108, 314);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 12;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
-            this.pictureBox3.Location = new System.Drawing.Point(603, 152);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
-            this.pictureBox2.Location = new System.Drawing.Point(346, 152);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
-            this.pictureBox1.Location = new System.Drawing.Point(108, 152);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Cart
             // 
             this.Cart.Controls.Add(this.btnClear);
@@ -655,6 +457,342 @@
             this.About.Text = "About";
             this.About.UseVisualStyleBackColor = true;
             // 
+            // Home
+            // 
+            this.Home.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_home_4;
+            this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Home.Controls.Add(this.guna2Button5);
+            this.Home.Controls.Add(this.guna2Button4);
+            this.Home.Controls.Add(this.guna2Button3);
+            this.Home.Controls.Add(this.guna2Button2);
+            this.Home.Controls.Add(this.guna2Button1);
+            this.Home.Controls.Add(this.btnLogin);
+            this.Home.Controls.Add(this.btnExit);
+            this.Home.Controls.Add(this.btnMin);
+            this.Home.Controls.Add(this.btnMenu);
+            this.Home.Location = new System.Drawing.Point(5, 4);
+            this.Home.Name = "Home";
+            this.Home.Padding = new System.Windows.Forms.Padding(3);
+            this.Home.Size = new System.Drawing.Size(975, 603);
+            this.Home.TabIndex = 0;
+            this.Home.Text = "Home";
+            this.Home.UseVisualStyleBackColor = true;
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Checked = true;
+            this.guna2Button4.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button4.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.FocusedColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button4.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Location = new System.Drawing.Point(540, 40);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.guna2Button4.Size = new System.Drawing.Size(48, 12);
+            this.guna2Button4.TabIndex = 12;
+            this.guna2Button4.UseTransparentBackground = true;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Checked = true;
+            this.guna2Button3.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button3.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.FocusedColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Location = new System.Drawing.Point(455, 41);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.guna2Button3.Size = new System.Drawing.Size(48, 12);
+            this.guna2Button3.TabIndex = 11;
+            this.guna2Button3.UseTransparentBackground = true;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Checked = true;
+            this.guna2Button2.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button2.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.FocusedColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Location = new System.Drawing.Point(373, 41);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.guna2Button2.Size = new System.Drawing.Size(48, 12);
+            this.guna2Button2.TabIndex = 10;
+            this.guna2Button2.UseTransparentBackground = true;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Checked = true;
+            this.guna2Button1.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.FocusedColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Location = new System.Drawing.Point(287, 40);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.guna2Button1.Size = new System.Drawing.Size(48, 12);
+            this.guna2Button1.TabIndex = 9;
+            this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BorderColor = System.Drawing.Color.Transparent;
+            this.btnLogin.Checked = true;
+            this.btnLogin.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnLogin.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnLogin.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnLogin.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogin.FillColor = System.Drawing.Color.Transparent;
+            this.btnLogin.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLogin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnLogin.Location = new System.Drawing.Point(634, 41);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.PressedColor = System.Drawing.Color.Transparent;
+            this.btnLogin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnLogin.Size = new System.Drawing.Size(49, 12);
+            this.btnLogin.TabIndex = 7;
+            this.btnLogin.UseTransparentBackground = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.Checked = true;
+            this.btnExit.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.Transparent;
+            this.btnExit.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.Location = new System.Drawing.Point(957, 5);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.PressedColor = System.Drawing.Color.Transparent;
+            this.btnExit.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnExit.Size = new System.Drawing.Size(15, 10);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.UseTransparentBackground = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnMin
+            // 
+            this.btnMin.BackColor = System.Drawing.Color.Transparent;
+            this.btnMin.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.Checked = true;
+            this.btnMin.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnMin.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMin.FillColor = System.Drawing.Color.Transparent;
+            this.btnMin.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnMin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMin.Location = new System.Drawing.Point(940, 6);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.PressedColor = System.Drawing.Color.Transparent;
+            this.btnMin.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnMin.Size = new System.Drawing.Size(12, 10);
+            this.btnMin.TabIndex = 5;
+            this.btnMin.UseTransparentBackground = true;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMenu.Checked = true;
+            this.btnMenu.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMenu.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMenu.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnMenu.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMenu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMenu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMenu.FillColor = System.Drawing.Color.Transparent;
+            this.btnMenu.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMenu.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMenu.Location = new System.Drawing.Point(444, 387);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.PressedColor = System.Drawing.Color.Transparent;
+            this.btnMenu.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnMenu.Size = new System.Drawing.Size(157, 33);
+            this.btnMenu.TabIndex = 3;
+            this.btnMenu.UseTransparentBackground = true;
+            this.btnMenu.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
+            this.pictureBox4.Location = new System.Drawing.Point(603, 314);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 15;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
+            this.pictureBox5.Location = new System.Drawing.Point(346, 314);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
+            this.pictureBox6.Location = new System.Drawing.Point(108, 314);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 12;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
+            this.pictureBox3.Location = new System.Drawing.Point(603, 152);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
+            this.pictureBox2.Location = new System.Drawing.Point(346, 152);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Radiant_Luxe_Kafe.Properties.Resources.examplecoffee;
+            this.pictureBox1.Location = new System.Drawing.Point(108, 152);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // guna2Button5
+            // 
+            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.Checked = true;
+            this.guna2Button5.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.CheckedState.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button5.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.FocusedColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button5.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.Location = new System.Drawing.Point(934, 41);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.guna2Button5.Size = new System.Drawing.Size(12, 12);
+            this.guna2Button5.TabIndex = 13;
+            this.guna2Button5.UseTransparentBackground = true;
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -667,18 +805,18 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.TabPane.ResumeLayout(false);
-            this.Home.ResumeLayout(false);
             this.Account.ResumeLayout(false);
             this.Account.PerformLayout();
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
+            this.Cart.ResumeLayout(false);
+            this.Home.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.Cart.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -717,7 +855,6 @@
         private System.Windows.Forms.Button btnClear;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label lblFullName;
         private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.Label lblPassword;
@@ -730,5 +867,10 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
     }
 }
