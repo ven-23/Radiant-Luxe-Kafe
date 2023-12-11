@@ -37,7 +37,7 @@ namespace Radiant_Luxe_Kafe
                     CoffeeName = "Cappuccino",
                     Description = "Coffee 1 Desc",
                     Price = 100,
-                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\examplecoffee.jpg"
+                    Picture = "C:\\Users\\Rianne\\Desktop\\Coffee"
                 },
                 new Coffee
                 {
@@ -263,6 +263,16 @@ namespace Radiant_Luxe_Kafe
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             TabPane.SelectedTab = Account;
+        }
+
+        private void bDarkCaramelCoffeeFrappuccino_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hBrewedCoffee_Click(object sender, EventArgs e)
+        {
+            ShowCoffeeDetails(0);
         }
     }
 }
