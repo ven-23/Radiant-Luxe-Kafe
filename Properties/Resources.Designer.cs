@@ -553,9 +553,29 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap m_error1 {
+            get {
+                object obj = ResourceManager.GetObject("m error1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap m_incomp_info {
             get {
                 object obj = ResourceManager.GetObject("m incomp info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_incomp_info1 {
+            get {
+                object obj = ResourceManager.GetObject("m incomp info1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -573,9 +593,29 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap m_invalid_u_p1 {
+            get {
+                object obj = ResourceManager.GetObject("m invalid u&p1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap m_item_added {
             get {
                 object obj = ResourceManager.GetObject("m item added", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_item_added1 {
+            get {
+                object obj = ResourceManager.GetObject("m item added1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,9 +633,29 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap m_loaded_success1 {
+            get {
+                object obj = ResourceManager.GetObject("m loaded success1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap m_login_success {
             get {
                 object obj = ResourceManager.GetObject("m login success", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_login_success1 {
+            get {
+                object obj = ResourceManager.GetObject("m login success1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,9 +673,29 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap m_logout1 {
+            get {
+                object obj = ResourceManager.GetObject("m logout1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap m_not_found_in_database {
             get {
                 object obj = ResourceManager.GetObject("m not found in database", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_not_found_in_database1 {
+            get {
+                object obj = ResourceManager.GetObject("m not found in database1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,9 +713,29 @@ namespace Radiant_Luxe_Kafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap m_pass_mismatch1 {
+            get {
+                object obj = ResourceManager.GetObject("m pass mismatch1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap m_record_inserted {
             get {
                 object obj = ResourceManager.GetObject("m record inserted", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_record_inserted1 {
+            get {
+                object obj = ResourceManager.GetObject("m record inserted1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

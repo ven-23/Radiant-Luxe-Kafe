@@ -114,6 +114,12 @@
       <DependentUpon>CartControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Coffee.cs" />
+    <Compile Include="error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="error.Designer.cs">
+      <DependentUpon>error.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CartControl.resx">
       <DependentUpon>CartControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="error.resx">
+      <DependentUpon>error.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -283,6 +292,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\milk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m error1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m incomp info1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m invalid u&amp;p1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m item added1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m loaded success1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m login success1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m not found in database1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m pass mismatch1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m record inserted1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
