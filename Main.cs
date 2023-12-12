@@ -67,7 +67,7 @@ namespace Radiant_Luxe_Kafe
                     CoffeeName = "Hot Brewed Coffee",
                     Description = "Swing by and warm up while enjoying any of our three roasts brewed daily.",
                     Price = 99,
-                    Picture = "C:\\Users\\Rianne\\Desktop\\Radiant-Luxe-Kaffe\\Resources\\hot brewed coffee1.png"
+                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\hot brewed coffee1.png"
                 },
                 new Coffee
                 {
@@ -75,7 +75,7 @@ namespace Radiant_Luxe_Kafe
                     CoffeeName = "Caffe Misto",
                     Description = "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
                     Price = 120,
-                    Picture = "C:\\Users\\Rianne\\Desktop\\Radiant-Luxe-Kaffe\\Resources\\hot caffe misto1.png"
+                    Picture = "C:\\Users\\Kyla De Leon\\source\\repos\\Radiant-Luxe-Kafe\\Resources\\hot caffe misto1.png"
                 },
                 new Coffee
                 {
@@ -310,7 +310,7 @@ namespace Radiant_Luxe_Kafe
 
             // Append receipt header
             rtbReceipt.Clear();
-            rtbReceipt.AppendText("\r\n•••••••••••OFFICIAL RECEIPT•••••••••••\r\n");
+            rtbReceipt.AppendText("\r\n••••••••••••OFFICIAL RECEIPT••••••••••••\r\n\n");
             rtbReceipt.AppendText("\t\tRadiantLuxe Kafé\t\r\n");
             rtbReceipt.AppendText("\t       MacArthur Hwy, Angeles,\t\r\n");
             rtbReceipt.AppendText("\t\t2009 Pampanga\r\n");
@@ -318,6 +318,7 @@ namespace Radiant_Luxe_Kafe
             rtbReceipt.AppendText($"{DateTime.Now:MMMM dd, yyyy} \n{DateTime.Now:hh:mm tt}\r\n");
             rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••••••\r\n");
             rtbReceipt.AppendText("Qty:\t    Item:                     \tPrice:\r\n");
+            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••••••\r\n");
 
             foreach (var coffee in shoppingCart)
             {
@@ -329,9 +330,8 @@ namespace Radiant_Luxe_Kafe
                 rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t{coffee.Price * coffee.Quantity:C}\r\n");
             }
 
-            // Append tax and total
-            rtbReceipt.AppendText("\r\nTax (X%):                                 \r\n\r\n");
-            rtbReceipt.AppendText($"TOTAL:                                 {total.ToString("C")}\r\n•••••••••");
+            rtbReceipt.AppendText($"\nTOTAL:                                 {total.ToString("C")}\r\n");
+            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••••••\r\n");
         }
 
         private void RemoveCoffeeFromCart(Coffee coffee)
