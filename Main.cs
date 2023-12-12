@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -135,7 +136,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 10,
+                    Id = 10,      
                     CoffeeName = "Green Tea Latte",
                     Description = "Smooth and creamy matcha is lightly sweetened and served with milk and ice.",
                     Price = 190,
@@ -184,7 +185,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 16,
+                    Id = 16,      
                     CoffeeName = "Triple Mocha Frappuccino",
                     Description = "Your favorite Mocha Frappuccino is topped with rich dark mocha sauce and layered between the signature whipped cream infused with cold brew, dark caramel sauce, and white chocolate mocha, and a dollop of dark mocha sauce at the bottom of the cup.\r\n",
                     Price = 190,
@@ -192,7 +193,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 17,
+                    Id = 17,      
                     CoffeeName = "Vanilla Cream Frappuccino",
                     Description = "This rich and creamy blend of vanilla bean, milk and ice topped with whipped cream takes va-va-vanilla flavor to another level.\r\n",
                     Price = 200,
@@ -201,7 +202,7 @@ namespace Radiant_Luxe_Kafe
                  // Add-ons
                 new Coffee
                 {
-                    Id = 18,
+                    Id = 18,      
                     CoffeeName = "Butter",
                     Description = "Butter for smoother mouthfeel and a slightly creamy taste",
                     Price = 35,
@@ -209,7 +210,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 19,
+                    Id = 19,      
                     CoffeeName = "Honey",
                     Description = "Honey for natural sweetness.",
                     Price = 20,
@@ -217,7 +218,7 @@ namespace Radiant_Luxe_Kafe
                 },
                 new Coffee
                 {
-                    Id = 20,
+                    Id = 20,      
                     CoffeeName = "Milk",
                     Description = "Milk for more creamier drink.",
                     Price = 30,
@@ -299,9 +300,9 @@ namespace Radiant_Luxe_Kafe
 
             decimal total = 0;
 
-            // Append receipt header
             rtbReceipt.Clear();
-            rtbReceipt.AppendText("\r\n••••••••••••OFFICIAL RECEIPT•••••••••••••\r\n\n");
+            rtbReceipt.AppendText("\r\n••••••••••••OFFICIAL RECEIPT•••••••••••••\r\n");
+            rtbReceipt.AppendText("\n");
             rtbReceipt.AppendText("\t\tRadiantLuxe Kafé\t\r\n");
             rtbReceipt.AppendText("\t       MacArthur Hwy, Angeles,\t\r\n");
             rtbReceipt.AppendText("\t\t  2009 Pampanga\r\n");
@@ -310,7 +311,7 @@ namespace Radiant_Luxe_Kafe
             rtbReceipt.AppendText($"\r\n\t\t        {DateTime.Now:hh:mm tt}\t\t\r\n");
             rtbReceipt.AppendText("\n");
             rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
-            rtbReceipt.AppendText("Qty:\t    Item:                     \tPrice:\r\n");
+            rtbReceipt.AppendText("Qty:\tItem:\t\t\t\tPrice:\n");
             rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
             rtbReceipt.AppendText("\n");
 
@@ -320,13 +321,29 @@ namespace Radiant_Luxe_Kafe
                 CartPanel.Controls.Add(control);
                 total += coffee.Price * coffee.Quantity;
 
-                // Append quantity, coffee name, and total price for each item in the cart
-                rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName.PadRight(15)}\t{coffee.Price * coffee.Quantity:C}\r\n");
-            }
+            
+
+                if (coffee.CoffeeName.Length < 7)
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t\t\t\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+                else if(coffee.CoffeeName.Length < 15)
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t\t\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+                else if (coffee.CoffeeName.Length < 22)
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+                else
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+            }                                                                 
 
             rtbReceipt.AppendText("\n");
             rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
-            rtbReceipt.AppendText($"\nTOTAL:{"".PadLeft(30)}\t{total.ToString("C")}\r\n");
+            rtbReceipt.AppendText($"\nTOTAL:{"".PadLeft(30)}\t\t{total.ToString("C")}\r\n");
         }
 
         private void RemoveCoffeeFromCart(Coffee coffee)
@@ -530,7 +547,7 @@ namespace Radiant_Luxe_Kafe
 
         private void Home_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void lblAddress_Click(object sender, EventArgs e)
@@ -699,18 +716,12 @@ namespace Radiant_Luxe_Kafe
                     {
                         if (reader.Read())
                         {
-                            //int userId = reader.GetInt32("Id");
                             string fullName = reader.GetString("FullName");
                             string address = reader.GetString("Address");
                             string phoneNumber = reader.GetString("PhoneNumber");
                             string gender = reader.GetString("Gender");
                             string username = reader.GetString("Username");
                             string password = reader.GetString("Password");
-
-                            // Now you have the user information, and you can display it in the "Account" tab or store it as needed.
-
-                            // For example, update labels in the "Account" tab:
-                            //lblUserId.Text = userId.ToString();
                             
                             lblFullName.Text = fullName;
                             lblAddress.Text = address;
@@ -763,38 +774,18 @@ namespace Radiant_Luxe_Kafe
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            CartPanel.Controls.Clear();
+      
+        }
 
-            decimal total = 0;
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            
+        }
 
-            // Append receipt header
-            rtbReceipt.Clear();
-            rtbReceipt.AppendText("\r\n••••••••••••OFFICIAL RECEIPT•••••••••••••\r\n\n");
-            rtbReceipt.AppendText("\t\tRadiantLuxe Kafé\t\r\n");
-            rtbReceipt.AppendText("\t       MacArthur Hwy, Angeles,\t\r\n");
-            rtbReceipt.AppendText("\t\t  2009 Pampanga\r\n");
-            rtbReceipt.AppendText("\r\n••••••••••••••••••••••••••••••••••••••\r\n");
-            rtbReceipt.AppendText($"\r\n\t\t{DateTime.Now:MMMM dd, yyyy}");
-            rtbReceipt.AppendText($"\r\n\t\t        {DateTime.Now:hh:mm tt}\t\t\r\n");
-            rtbReceipt.AppendText("\n");
-            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
-            rtbReceipt.AppendText("Qty:\t    Item:                     \tPrice:\r\n");
-            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
-            rtbReceipt.AppendText("\n");
-
-            foreach (var coffee in shoppingCart)
-            {
-                var control = new CartControl(coffee, RemoveCoffeeFromCart);
-                CartPanel.Controls.Add(control);
-                total += coffee.Price * coffee.Quantity;
-
-                // Append quantity, coffee name, and total price for each item in the cart
-                rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName.PadRight(15)}\t{coffee.Price * coffee.Quantity:C}\r\n");
-            }
-
-            rtbReceipt.AppendText("\n");
-            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
-            rtbReceipt.AppendText($"\nTOTAL:{"".PadLeft(30)}\t{total.ToString("C")}\r\n");
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            // Assuming you have a Form or Panel for drawing, replace Form1 with your actual form name.
+            
         }
     }
 }
