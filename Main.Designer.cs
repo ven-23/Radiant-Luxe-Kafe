@@ -42,7 +42,6 @@
             this.btnMin = new Guna.UI2.WinForms.Guna2Button();
             this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.Account = new System.Windows.Forms.TabPage();
-            this.guna2Button30 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
@@ -57,7 +56,6 @@
             this.lblFullName = new System.Windows.Forms.Label();
             this.Menu = new System.Windows.Forms.TabPage();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button28 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button18 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button19 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
@@ -90,7 +88,6 @@
             this.guna2Button39 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button38 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button37 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button32 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button33 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button34 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button35 = new Guna.UI2.WinForms.Guna2Button();
@@ -100,7 +97,6 @@
             this.CartPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.About = new System.Windows.Forms.TabPage();
             this.guna2Button31 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button29 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button22 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button23 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button24 = new Guna.UI2.WinForms.Guna2Button();
@@ -153,7 +149,7 @@
             // 
             // Home
             // 
-            this.Home.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_home_4;
+            this.Home.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.Fbg_home;
             this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Home.Controls.Add(this.lblHello);
             this.Home.Controls.Add(this.guna2Button27);
@@ -182,9 +178,8 @@
             this.lblHello.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(52)))), ((int)(((byte)(8)))));
             this.lblHello.Location = new System.Drawing.Point(729, 38);
             this.lblHello.Name = "lblHello";
-            this.lblHello.Size = new System.Drawing.Size(50, 17);
+            this.lblHello.Size = new System.Drawing.Size(0, 17);
             this.lblHello.TabIndex = 15;
-            this.lblHello.Text = "Hello!";
             // 
             // guna2Button27
             // 
@@ -458,9 +453,8 @@
             // 
             // Account
             // 
-            this.Account.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_account;
+            this.Account.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.Fbg_account;
             this.Account.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Account.Controls.Add(this.guna2Button30);
             this.Account.Controls.Add(this.guna2Button8);
             this.Account.Controls.Add(this.guna2Button9);
             this.Account.Controls.Add(this.guna2Button10);
@@ -481,23 +475,6 @@
             this.Account.Text = "Account";
             this.Account.UseVisualStyleBackColor = true;
             this.Account.Click += new System.EventHandler(this.Account_Click);
-            // 
-            // guna2Button30
-            // 
-            this.guna2Button30.BorderRadius = 10;
-            this.guna2Button30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button30.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button30.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button30.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button30.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
-            this.guna2Button30.Font = new System.Drawing.Font("Lucida Sans", 8.25F);
-            this.guna2Button30.ForeColor = System.Drawing.Color.White;
-            this.guna2Button30.Location = new System.Drawing.Point(610, 34);
-            this.guna2Button30.Name = "guna2Button30";
-            this.guna2Button30.Size = new System.Drawing.Size(67, 26);
-            this.guna2Button30.TabIndex = 39;
-            this.guna2Button30.Text = "Sign In";
             // 
             // guna2Button8
             // 
@@ -753,10 +730,9 @@
             // 
             // Menu
             // 
-            this.Menu.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_menu;
+            this.Menu.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.Fbg_menu;
             this.Menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Menu.Controls.Add(this.guna2Button5);
-            this.Menu.Controls.Add(this.guna2Button28);
             this.Menu.Controls.Add(this.guna2Button18);
             this.Menu.Controls.Add(this.guna2Button19);
             this.Menu.Controls.Add(this.guna2Button13);
@@ -819,23 +795,6 @@
             this.guna2Button5.TabIndex = 39;
             this.guna2Button5.UseTransparentBackground = true;
             this.guna2Button5.Click += new System.EventHandler(this.accBtn);
-            // 
-            // guna2Button28
-            // 
-            this.guna2Button28.BorderRadius = 10;
-            this.guna2Button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button28.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button28.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button28.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button28.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
-            this.guna2Button28.Font = new System.Drawing.Font("Lucida Sans", 8.25F);
-            this.guna2Button28.ForeColor = System.Drawing.Color.White;
-            this.guna2Button28.Location = new System.Drawing.Point(610, 34);
-            this.guna2Button28.Name = "guna2Button28";
-            this.guna2Button28.Size = new System.Drawing.Size(67, 26);
-            this.guna2Button28.TabIndex = 38;
-            this.guna2Button28.Text = "Sign In";
             // 
             // guna2Button18
             // 
@@ -1328,13 +1287,12 @@
             // 
             // Cart
             // 
-            this.Cart.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_cart;
+            this.Cart.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.Fbg_cart;
             this.Cart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Cart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Cart.Controls.Add(this.guna2Button39);
             this.Cart.Controls.Add(this.guna2Button38);
             this.Cart.Controls.Add(this.guna2Button37);
-            this.Cart.Controls.Add(this.guna2Button32);
             this.Cart.Controls.Add(this.guna2Button33);
             this.Cart.Controls.Add(this.guna2Button34);
             this.Cart.Controls.Add(this.guna2Button35);
@@ -1432,23 +1390,6 @@
             this.guna2Button37.TabIndex = 20;
             this.guna2Button37.UseTransparentBackground = true;
             this.guna2Button37.Click += new System.EventHandler(this.guna2Button37_Click);
-            // 
-            // guna2Button32
-            // 
-            this.guna2Button32.BorderRadius = 10;
-            this.guna2Button32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button32.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button32.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button32.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button32.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
-            this.guna2Button32.Font = new System.Drawing.Font("Lucida Sans", 8.25F);
-            this.guna2Button32.ForeColor = System.Drawing.Color.White;
-            this.guna2Button32.Location = new System.Drawing.Point(611, 32);
-            this.guna2Button32.Name = "guna2Button32";
-            this.guna2Button32.Size = new System.Drawing.Size(67, 26);
-            this.guna2Button32.TabIndex = 19;
-            this.guna2Button32.Text = "Sign In";
             // 
             // guna2Button33
             // 
@@ -1604,10 +1545,9 @@
             // 
             // About
             // 
-            this.About.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.bg_about;
+            this.About.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.Fbg_about;
             this.About.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.About.Controls.Add(this.guna2Button31);
-            this.About.Controls.Add(this.guna2Button29);
             this.About.Controls.Add(this.guna2Button22);
             this.About.Controls.Add(this.guna2Button23);
             this.About.Controls.Add(this.guna2Button24);
@@ -1650,23 +1590,6 @@
             this.guna2Button31.TabIndex = 42;
             this.guna2Button31.UseTransparentBackground = true;
             this.guna2Button31.Click += new System.EventHandler(this.accBtn);
-            // 
-            // guna2Button29
-            // 
-            this.guna2Button29.BorderRadius = 10;
-            this.guna2Button29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button29.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button29.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button29.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button29.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button29.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(86)))), ((int)(((byte)(62)))));
-            this.guna2Button29.Font = new System.Drawing.Font("Lucida Sans", 8.25F);
-            this.guna2Button29.ForeColor = System.Drawing.Color.White;
-            this.guna2Button29.Location = new System.Drawing.Point(610, 34);
-            this.guna2Button29.Name = "guna2Button29";
-            this.guna2Button29.Size = new System.Drawing.Size(67, 26);
-            this.guna2Button29.TabIndex = 41;
-            this.guna2Button29.Text = "Sign In";
             // 
             // guna2Button22
             // 
@@ -1956,13 +1879,9 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button25;
         private Guna.UI2.WinForms.Guna2Button guna2Button26;
         private Guna.UI2.WinForms.Guna2Button guna2Button27;
-        private Guna.UI2.WinForms.Guna2Button guna2Button30;
-        private Guna.UI2.WinForms.Guna2Button guna2Button28;
-        private Guna.UI2.WinForms.Guna2Button guna2Button29;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button31;
         private System.Windows.Forms.Label lblHello;
-        private Guna.UI2.WinForms.Guna2Button guna2Button32;
         private Guna.UI2.WinForms.Guna2Button guna2Button33;
         private Guna.UI2.WinForms.Guna2Button guna2Button34;
         private Guna.UI2.WinForms.Guna2Button guna2Button35;

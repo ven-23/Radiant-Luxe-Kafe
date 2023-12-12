@@ -44,14 +44,14 @@ namespace Radiant_Luxe_Kafe
             else
             {
                 guna2Button27.Text = "Sign Out";
-                   
+                   /*
                     lblHello.Text = "Hello!";
                     lblFullName.Text = "";
                     lblAddress.Text = "";
                     lblPhoneNumber.Text = "";
                     lblGender.Text = "";
                     lblUsername.Text = "";
-                
+                    */
                 // Perform logout actions if needed
             }
         }
@@ -738,6 +738,7 @@ namespace Radiant_Luxe_Kafe
 
         private void guna2Button27_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Login login = new Login();
             login.Show(); 
         }

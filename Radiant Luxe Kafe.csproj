@@ -415,5 +415,20 @@
   <ItemGroup>
     <None Include="Resources\m record inserted.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fbg home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fbg menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fbg cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fbg about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fbg account.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
