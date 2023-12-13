@@ -108,6 +108,7 @@
             this.guna2Button21 = new Guna.UI2.WinForms.Guna2Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.button1 = new System.Windows.Forms.Button();
             this.TabPane.SuspendLayout();
             this.Home.SuspendLayout();
             this.Account.SuspendLayout();
@@ -168,7 +169,7 @@
             this.Home.Controls.Add(this.btnMenu);
             this.Home.Location = new System.Drawing.Point(5, 4);
             this.Home.Name = "Home";
-            this.Home.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Home.Padding = new System.Windows.Forms.Padding(3);
             this.Home.Size = new System.Drawing.Size(966, 593);
             this.Home.TabIndex = 0;
             this.Home.Text = "Home";
@@ -473,7 +474,7 @@
             this.Account.Controls.Add(this.lblFullName);
             this.Account.Location = new System.Drawing.Point(5, 4);
             this.Account.Name = "Account";
-            this.Account.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Account.Padding = new System.Windows.Forms.Padding(3);
             this.Account.Size = new System.Drawing.Size(966, 593);
             this.Account.TabIndex = 1;
             this.Account.Text = "Account";
@@ -1294,6 +1295,7 @@
             this.Cart.BackgroundImage = global::Radiant_Luxe_Kafe.Properties.Resources.Fbg_cart;
             this.Cart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Cart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Cart.Controls.Add(this.button1);
             this.Cart.Controls.Add(this.btnPrint);
             this.Cart.Controls.Add(this.guna2Button39);
             this.Cart.Controls.Add(this.guna2Button38);
@@ -1557,7 +1559,7 @@
             // 
             this.CartPanel.AutoScroll = true;
             this.CartPanel.Location = new System.Drawing.Point(426, 94);
-            this.CartPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CartPanel.Margin = new System.Windows.Forms.Padding(2);
             this.CartPanel.Name = "CartPanel";
             this.CartPanel.Size = new System.Drawing.Size(310, 433);
             this.CartPanel.TabIndex = 0;
@@ -1807,9 +1809,6 @@
             this.guna2Button21.UseTransparentBackground = true;
             this.guna2Button21.Click += new System.EventHandler(this.minBtn);
             // 
-            // printDocument1
-            // 
-            // 
             // printPreviewDialog1
             // 
             this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
@@ -1819,6 +1818,22 @@
             this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(56)))), ((int)(((byte)(37)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(52)))), ((int)(((byte)(33)))));
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(52)))), ((int)(((byte)(33)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(52)))), ((int)(((byte)(33)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(725, 563);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(60, 26);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "RELOAD";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // Main
             // 
@@ -1925,5 +1940,6 @@
         private System.Windows.Forms.Button btnPrint;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Button button1;
     }
 }

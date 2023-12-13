@@ -21,7 +21,7 @@ namespace Radiant_Luxe_Kafe
         private string _username;
         private List<Coffee> coffeeList;
         private List<Coffee> shoppingCart = new List<Coffee>();
-        private bool isLoggedIn = false;
+        
 
         private PrintDocument printDocument;
 
@@ -825,6 +825,57 @@ namespace Radiant_Luxe_Kafe
                     }
                 }
             }
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            CartPanel.Controls.Clear();
+
+            decimal total = 0;
+
+            rtbReceipt.Clear();
+            rtbReceipt.AppendText("\r\n\t\tOFFICIAL RECEIPT\r\n");
+            rtbReceipt.AppendText("\r\n••••••••••••••••••••••••••••••••••••••\r\n");
+            rtbReceipt.AppendText("\n");
+            rtbReceipt.AppendText("\t\tRadiantLuxe Kafé\t\r\n");
+            rtbReceipt.AppendText("\t        MacArthur Hwy, Angeles,\t\r\n");
+            rtbReceipt.AppendText("\t\t  2009 Pampanga\r\n");
+            rtbReceipt.AppendText("\r\n••••••••••••••••••••••••••••••••••••••\r\n");
+            rtbReceipt.AppendText($"\r\n\t\t{DateTime.Now:MMMM dd, yyyy}");
+            rtbReceipt.AppendText($"\r\n\t\t        {DateTime.Now:hh:mm tt}\t\t\r\n");
+            rtbReceipt.AppendText("\n");
+            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
+            rtbReceipt.AppendText("Qty:\tItem:\t\t\t\tPrice:\n");
+            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
+            rtbReceipt.AppendText("\n");
+
+            foreach (var coffee in shoppingCart)
+            {
+                var control = new CartControl(coffee, RemoveCoffeeFromCart);
+                CartPanel.Controls.Add(control);
+                total += coffee.Price * coffee.Quantity;
+
+                if (coffee.CoffeeName.Length < 7)
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t\t\t\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+                else if (coffee.CoffeeName.Length < 15)
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t\t\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+                else if (coffee.CoffeeName.Length < 22)
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+                else
+                {
+                    rtbReceipt.AppendText($"{coffee.Quantity}\t{coffee.CoffeeName}\t{coffee.Price * coffee.Quantity:C}\r\n");
+                }
+            }
+
+            rtbReceipt.AppendText("\n");
+            rtbReceipt.AppendText("••••••••••••••••••••••••••••••••••••••\r\n");
+            rtbReceipt.AppendText($"\nTOTAL:{"".PadLeft(30)}\t\t{total.ToString("C")}\r\n");
         }
     }
 }
