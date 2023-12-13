@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -21,7 +22,8 @@ namespace Radiant_Luxe_Kafe
         private List<Coffee> coffeeList;
         private List<Coffee> shoppingCart = new List<Coffee>();
         private bool isLoggedIn = false;
-        
+
+        private PrintDocument printDocument;
 
         private const string CONNECTION_STRING = "server=localhost;user id = root; password=; database=dbRLK;";
 
@@ -29,6 +31,9 @@ namespace Radiant_Luxe_Kafe
         {
             InitializeComponent();
             coffeeList = InitializeCoffeeList();
+
+            printDocument = new PrintDocument();
+            printDocument.PrintPage += PrintPageHandler;
         }
 
         public Main(string username)
@@ -301,10 +306,11 @@ namespace Radiant_Luxe_Kafe
             decimal total = 0;
 
             rtbReceipt.Clear();
-            rtbReceipt.AppendText("\r\n••••••••••••OFFICIAL RECEIPT•••••••••••••\r\n");
+            rtbReceipt.AppendText("\r\n\t\tOFFICIAL RECEIPT\r\n");
+            rtbReceipt.AppendText("\r\n••••••••••••••••••••••••••••••••••••••\r\n");
             rtbReceipt.AppendText("\n");
             rtbReceipt.AppendText("\t\tRadiantLuxe Kafé\t\r\n");
-            rtbReceipt.AppendText("\t       MacArthur Hwy, Angeles,\t\r\n");
+            rtbReceipt.AppendText("\t        MacArthur Hwy, Angeles,\t\r\n");
             rtbReceipt.AppendText("\t\t  2009 Pampanga\r\n");
             rtbReceipt.AppendText("\r\n••••••••••••••••••••••••••••••••••••••\r\n");
             rtbReceipt.AppendText($"\r\n\t\t{DateTime.Now:MMMM dd, yyyy}");
@@ -779,13 +785,46 @@ namespace Radiant_Luxe_Kafe
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            
+            Print();
         }
 
-        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        private void Print()
         {
-            // Assuming you have a Form or Panel for drawing, replace Form1 with your actual form name.
-            
+            PrintDialog printDialog = new PrintDialog();
+            printDialog.Document = printDocument;
+
+            if (printDialog.ShowDialog() == DialogResult.OK)
+            {
+                printDocument.Print();
+            }
+        }
+
+        private void PrintPageHandler(object sender, PrintPageEventArgs e)
+        {
+            string originalText = rtbReceipt.Text;
+            string cleanedText = originalText.Replace("•", "");
+
+            using (StringFormat stringFormat = new StringFormat())
+            {
+                stringFormat.Alignment = StringAlignment.Center;
+                stringFormat.LineAlignment = StringAlignment.Center;
+
+                // Remove the header drawstring
+
+                float yPos = e.MarginBounds.Top;  // Adjust yPos based on your layout needs
+
+                using (Font contentFont = new Font("Arial", 12))
+                {
+                    string[] lines = cleanedText.Split('\n');
+
+                    foreach (string line in lines)
+                    {
+                        // Draw each line with left alignment
+                        e.Graphics.DrawString(line, contentFont, Brushes.Black, e.MarginBounds.Left, yPos);
+                        yPos += contentFont.GetHeight();
+                    }
+                }
+            }
         }
     }
 }
