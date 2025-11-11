@@ -12,16 +12,6 @@
 * **Splash Screen:** A loading screen that appears when the application starts.
 * **About Page:** Includes the café's Mission and Vision statements.
 
-## 📸 Screenshots
-
-| Splash Screen | Login & Register |
-| :---: | :---: |
-|  |  |
-| **Home Page** | **Menu Page** |
-|  |  |
-| **Cart & Receipt** | **About & Account** |
-|  |  |
-
 ## 💻 Technologies Used
 
 * **Language:** C#
@@ -51,7 +41,3 @@ To run this project locally:
     * Open the `.sln` file in Visual Studio 2022.
     * Ensure the necessary NuGet packages (like `MySql.Data` and `Guna.UI2`) are restored.
 4.  **Run the application.**
-
----
-*Course: BSCS 2A*
-*Institution: Angeles University Foundation, College of Computer Studies*
